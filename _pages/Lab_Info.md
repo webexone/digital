@@ -19,7 +19,7 @@ These labs are specially designed for this Webex ONE session. The main purpose o
 
 ## Lab Topology
 
-<img align="middle" src="/images/topology.png" width="1000" />
+<img align="middle" src="/assets/images/topology.png" width="1000" />
 
 ## Access URLs
 

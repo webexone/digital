@@ -42,7 +42,7 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Navigate to Assets > Numbers and verify that the tenant you are using has a WhatsApp number assigned
 
-<img align="middle" src="/images/Lab6_1.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_1.png" width="1000" />
 <br/>
 <br/>
 
@@ -50,19 +50,19 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Identify and make note of the APP ID (We will need this later in the flow configuration)
 
-<img align="middle" src="/images/Lab6_1_a.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_1_a.png" width="1000" />
 <br/>
 <br/>
 
 - Select actions and click **Manage**
 
-<img align="middle" src="/images/Lab6_1_b.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_1_b.png" width="1000" />
 <br/>
 <br/>
 
 - Identify and make a note of the **Number** and **WABA ID** (We will need this later in the flow configuration)
 
-<img align="middle" src="/images/Lab6_1_c.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_1_c.png" width="1000" />
 <br/>
 <br/>
 
@@ -70,7 +70,7 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - In the Whatsapp number assigned, under actions select the 'Manage' option
 
-<img align="middle" src="/images/Lab6_2.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_2.png" width="1000" />
 <br/>
 <br/>
 
@@ -100,7 +100,7 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Click on `New Entry Point`.
 
-<img align="middle" src="/images/Lab5_6.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_6.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -116,7 +116,7 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Click on **Save** after comparing your values with the screenshot below.
 
-<img align="middle" src="/images/Lab6_7.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_7.png" width="1000" />
 <br/>
 <br/>
 
@@ -124,7 +124,7 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Click on `New Queue`.
 
-<img align="middle" src="/images/Lab5_8.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_8.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -134,13 +134,13 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Click `Add Group` in the **_Conversation distribution_** section.
 
-<img align="middle" src="/images/Lab6_9.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_9.png" width="1000" />
 <br/>
 <br/>
 
 - Select the Agent based teams created in the previous lab and click `Save` . Once saved, click `Close` to exit this window.
 
-<img align="middle" src="/images/Lab6_10.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_10.png" width="1000" />
 <br/>
 <br/>
 
@@ -150,7 +150,7 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Click on **Save** after comparing your values with the screenshot below.
 
-<img align="middle" src="/images/Lab6_11.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_11.png" width="1000" />
 <br/>
 <br/>
 
@@ -180,25 +180,25 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Once the flow is saved, the 'Configure Whatsapp Event' node will open. Select incoming message as trigger and click **Save**
 
-<img align="middle" src="/images/Lab6_14.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_14.png" width="1000" />
 <br/>
 <br/>
 
 - Open Custom variables and update the value for **WANNumber** , **WANumber_Countrycode** and **appid** (These are the values that were identified in Step-1)
 
-<img align="middle" src="/images/Lab6_15.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_15.png" width="1000" />
 <br/>
 <br/>
 
 - In the created workflow find the **Queue Task**, click twice, select the **QUEUE NAME** as **Whatsapp_Queue_0XX** and click on **SAVE**.
 
-<img align="middle" src="/images/Lab6_16.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_16.png" width="1000" />
 <br/>
 <br/>
 
 - Finally click on Make Live on top right corner and click Make Live. In the application drop down box, select the app that corresponds to your LAB ID.
 
-<img align="middle" src="/images/Lab6_17.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_17.png" width="1000" />
 <br/>
 <br/>
 
@@ -214,49 +214,49 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 - Login to the Agent Desktop and make the agent Available.
 
-<img align="middle" src="/images/Lab2_Agent1.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Agent1.png" width="1000" />
 <br/>
 <br/>
 
 - In your personal mobile phone, add the Whatsapp number configured in the previous step as a new contact. (The screenshot is for reference. Please use the number assigned to your pod)
 
-<img align="middle" src="/images/Lab6_23.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_23.png" width="1000" />
 <br/>
 <br/>
 
 - Open Whatsapp and look up the contact created in the previous step
 
-<img align="middle" src="/images/Lab6_24.png" width="500" />
+<img align="middle" src="/assets/images/Lab6_24.png" width="500" />
 <br/>
 <br/>
 
 - Send a message to the contact identified in the previous step to initiate the conversation.
 
-<img align="middle" src="/images/Lab6_25.png" width="500" />
+<img align="middle" src="/assets/images/Lab6_25.png" width="500" />
 <br/>
 <br/>
 
 - The Whatsapp contact will be offered to the agent. Click "Accept" to handle the contact.
 
-<img align="middle" src="/images/Lab6_19.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_19.png" width="1000" />
 <br/>
 <br/>
 
 - Type a response and hit send button.
 
-<img align="middle" src="/images/Lab6_20.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_20.png" width="1000" />
 <br/>
 <br/>
 
 - End the contact
 
-<img align="middle" src="/images/Lab6_21.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_21.png" width="1000" />
 <br/>
 <br/>
 
 - Add wrap up and close the task.
 
-<img align="middle" src="/images/Lab6_22.png" width="1000" />
+<img align="middle" src="/assets/images/Lab6_22.png" width="1000" />
 <br/>
 <br/>
 

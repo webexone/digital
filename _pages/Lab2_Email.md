@@ -42,7 +42,7 @@ In this lab you will be configuring **Gmail** Account settings, Email Assets, En
 
 ### Configuration Order
 
-<img align="middle" src="/images/Lab2_ConfigOrder.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_ConfigOrder.png" width="1000" />
 <br/>
 <br/>
 
@@ -62,13 +62,13 @@ Starting May 30, 2022 the **Less Secure Apps** feature was disabled on all Googl
 
 - Enable POP3/IMAP setting by clicking on settings icon on top right corner and selecting **See all settings**.
 
-<img align="middle" src="/images/Lab2_Gmail1.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Gmail1.png" width="1000" />
 <br/>
 <br/>
 
 - Now Click on **Forwarding and POP/IMAP**, enable the `POP Download` and `IMAP access` then click **Save Changes**.
 
-<img align="middle" src="/images/Lab2_Gmail2.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Gmail2.png" width="1000" />
 <br/>
 <br/>
 
@@ -216,19 +216,19 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - Copy the forwarding address from the created asset in the previous step then go back to your gmail account.
 
-<img align="middle" src="/images/Lab2_Assest4.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Assest4.png" width="1000" />
 <br/>
 <br/>
 
 - Go back to the Gmail account and click on settings icon on top right corner -> Select **See all settings**.
 
-<img align="middle" src="/images/Lab2_Gmail1.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Gmail1.png" width="1000" />
 <br/>
 <br/>
 
 - Click on **Forwarding and POP/IMAP** -> click on **Add a forwarding address** -> Paste the copied forwarding address from the created asset. Then click on **Next**. In a new pop up tab click **Proceed** and then click **OK** when it prompts.
 
-<img align="middle" src="/images/Lab2_Gmail6.gif" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Gmail6.gif" width="1000" />
 <br/>
 <br/>
 
@@ -236,25 +236,25 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - Under Inbound logs, Select the App that was created -> Select Channel Event as `Incoming Email` -> Select the period as `Today`. Wait until status is changed to **Ready for download** and click **Download** icon.
 
-<img align="middle" src="/images/Lab2_ExportLog1.gif" width="1000" />
+<img align="middle" src="/assets/images/Lab2_ExportLog1.gif" width="1000" />
 <br/>
 <br/>
 
 - Once a log file is downloaded, open the log file, under the **Subject** column, copy the confirmation code.
 
-<img align="middle" src="/images/Lab2_ExportLog2.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_ExportLog2.png" width="1000" />
 <br/>
 <br/>
 
 - Go back to the Gmail account, paste the code in the email account verification section and click verify.
 
-<img align="middle" src="/images/Lab2_Gmail8.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Gmail8.png" width="1000" />
 <br/>
 <br/>
 
 - Select **Forward a copy of incoming mail to** the verified address and click **Save Changes**.
 
-<img align="middle" src="/images/Lab2_Gmail9.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Gmail9.png" width="1000" />
 <br/>
 <br/>
 
@@ -305,7 +305,7 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - Click on **Save** after comparing your values with the screenshot below.
 
-<img align="middle" src="/images/Lab2_Email_Q.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Email_Q.png" width="1000" />
 <br/>
 <br/>
 
@@ -317,7 +317,7 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - In the the **_Email Distribution_** click on **Add Group** and select `Team2_0XX`.
 
-<img align="middle" src="/images/Lab2_Email_Q2.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Email_Q2.png" width="1000" />
 <br/>
 <br/>
 
@@ -349,13 +349,13 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - Click **Settings** on top right corner and switch to **Custom variables** tab. Here in the **bizemailid** row, update the default value with your email address of the Gmail account. Click **SAVE**.
 
-<img align="middle" src="/images/Lab2_WF3.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_WF3.png" width="1000" />
 <br/>
 <br/>
 
 - Finally click on Make Live on top right corner -> Select the Application/Asset that we have created and click Make Live.
 
-<img align="middle" src="/images/Lab2_WF4.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_WF4.png" width="1000" />
 <br/>
 <br/>
 
@@ -367,7 +367,7 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - Go to the Agent Desktop and make the agent Available.
 
-<img align="middle" src="/images/Lab2_Agent1.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Agent1.png" width="1000" />
 <br/>
 <br/>
 

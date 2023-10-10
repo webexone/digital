@@ -88,7 +88,7 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - Click on `New Entry Point`.
 
-<img align="middle" src="/images/Lab5_6.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_6.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -104,7 +104,7 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - Click on **Save** after comparing your values with the screenshot below.
 
-<img align="middle" src="/images/Lab5_7.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_7.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -112,7 +112,7 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - Click on `New Queue`.
 
-<img align="middle" src="/images/Lab5_8.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_8.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -122,13 +122,13 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - Click `Add Group` in the **_Conversation distribution_** section.
 
-<img align="middle" src="/images/Lab5_9.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_9.jpg" width="1000" />
 <br/>
 <br/>
 
 - Select the Agent based teams created in the previous lab and click `Save` . Once saved, click `Close` to exit this window.
 
-<img align="middle" src="/images/Lab5_10.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_10.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -138,7 +138,7 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - Click on **Save** after comparing your values with the screenshot below.
 
-<img align="middle" src="/images/Lab5_11.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_11.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -178,7 +178,7 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - In the created workflow find the **Queue Task**, click twice, select the **QUEUE NAME** as **SMS_Queue_0XX** and click on **SAVE**.
 
-<img align="middle" src="/images/Lab5_15.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_15.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -206,7 +206,7 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - Login to the Agent Desktop and make the agent Available.
 
-<img align="middle" src="/images/Lab2_Agent1.png" width="1000" />
+<img align="middle" src="/assets/images/Lab2_Agent1.png" width="1000" />
 <br/>
 <br/>
 
@@ -214,25 +214,25 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - The SMS will be offered to the agent. Click "Accept" to handle the SMS.
 
-<img align="middle" src="/images/Lab5_20.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_20.jpg" width="1000" />
 <br/>
 <br/>
 
 - Type a response and hit send button.
 
-<img align="middle" src="/images/Lab5_21.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_21.jpg" width="1000" />
 <br/>
 <br/>
 
 - End the contact
 
-<img align="middle" src="/images/Lab5_22.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_22.jpg" width="1000" />
 <br/>
 <br/>
 
 - Add wrap up and close the task.
 
-<img align="middle" src="/images/Lab5_23.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab5_23.jpg" width="1000" />
 <br/>
 <br/>
 

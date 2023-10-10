@@ -52,17 +52,17 @@ In this lab, we will go through the concepts and basics of flow debugging option
 
 - Under actions click on 'arrow' mark and select manage. This will bring up flow workspace.
 
-<img align="middle" src="/images/Lab9_1.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab9_1.jpg" width="1000" />
 <br/>
 <br/>
 
-<img align="middle" src="/images/Lab9_2.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab9_2.jpg" width="1000" />
 <br/>
 <br/>
 
 - In order to enable debug logs to see the complete HTTP request and response, Click on settings icon from top right and enable the toggle 'descriptive logs'
 
-<img align="middle" src="/images/Lab9_3.jpg" width="1000" />
+<img align="middle" src="/assets/images/Lab9_3.jpg" width="1000" />
 <br/>
 <br/>
 
