@@ -7,7 +7,7 @@ layout: post
 
 [Switch to LIGHT MODE](https://ciscolivelabs.github.io/wxcclabguides/Cisco_Live_US/LTRCCT-2013-simplified/LTRCCT-2013/Home){:target="\_blank"}
 
-<img align="middle" src="/assets/images/Admin.jpeg" width="1000" />
+<img align="middle" src="/digital/assets/images/Admin.jpeg" width="1000" />
 
 Welcome to the Lab Guide Library. Here you will find the step-by-step guides on how to setup service for all the available digital channels.
 

@@ -64,7 +64,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 - Navigate to `Assets` > `Apps` > `Configure New App` > `Mobile / Web`
 
-<img align="middle" src="/assets/images/Lab3_1.gif" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_1.gif" width="1000" />
 <br/>
 <br/>
 
@@ -72,31 +72,31 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 - Toggle/Enable `Live Chat / In-AppMessaging` to "ON" and choose `PRIMARY TRANSPORT PROTOCOL` as MQTT" & `SECONDARY TRANSPORT PROTOCOL` as Web Socket" and enable `Use Secured Port` and `SAVE`.
 
-<img align="middle" src="/assets/images/Lab3_2.jpg" width="700" />
+<img align="middle" src="/digital/assets/images/Lab3_2.jpg" width="700" />
 <br/>
 <br/>
 
 - Select `REGISTER TO WEBEX Engage` and choose the Service you have created and REGISTER
 
-<img align="middle" src="new_images\Lab3_chat\lab3_1_register_app_to_webex_engage_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_1_register_app_to_webex_engage_png" width="1000" />
 <br/>
 <br/>
 
 - In the resulting window, select a service under which this asset would be managed. This service will be Service_0XX you created in the prior steps
 
-<img align="middle" src="new_images\Lab3_chat\lab3_2_register_app_to_service_png" width="600" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_2_register_app_to_service_png" width="600" />
 <br/>
 <br/>
 
 - Verify that the `Register to Webex Engage` option is now disabled and there is a message indicating the time when the asset was registered along with the service to which it is assigned.
 
-<img align="middle" src="new_images\Lab3_chat\lab3_3_confirm_register_app_to_service_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_3_confirm_register_app_to_service_png" width="1000" />
 <br/>
 <br/>
 
 - Click the back arrow next to go back to the list of Apps. Then take note of the Application ID (App ID). We will need this later so please copy this ID somewhere handy like a text file or take note of it.
 
-<img align="middle" src="/assets/images/Lab3_33.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_33.jpg" width="600" />
 <br/>
 <br/>
 
@@ -108,7 +108,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 - From Webex Connect interface, go to `TOOLS` > `Templates` then click on `Add New Template`
 
-<img align="middle" src="/assets/images/Lab3_8.jpg" width="200" />
+<img align="middle" src="/digital/assets/images/Lab3_8.jpg" width="200" />
 <br/>
 <br/>
 
@@ -118,13 +118,13 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 - Provide the Title as `Welcome to Webex CC Live Chat` or some other message.
 
-<img align="middle" src="/assets/images/Lab3_9.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_9.jpg" width="1000" />
 <br/>
 <br/>
 
 - We will be adding form fields now. Firstly the Name. Click on `Add field` and then fill in the details as per the screenshot
 
-<img align="middle" src="/assets/images/Lab3_10.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_10.jpg" width="600" />
 <br/>
 <br/>
 
@@ -139,13 +139,13 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 Here is a screenshot of the Dropdown configuration with 2 options, one for **Sales** and one for **Support**. We will use this later to perform Skills Based Routing so chats are routed to most skilled agents.
 
-<img align="middle" src="/assets/images/Lab3_11.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_11.jpg" width="600" />
 <br/>
 <br/>
 
 - Finally click `SAVE`
 
-<img align="middle" src="/assets/images/Lab3_12.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_12.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -171,7 +171,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Click on **Save** after comparing your values with the screenshot below.
 
-<img align="middle" src="/assets/images/Lab3_6.jpg" width="800" />
+<img align="middle" src="/digital/assets/images/Lab3_6.jpg" width="800" />
 <br/>
 <br/>
 
@@ -199,7 +199,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Click on **Save** after comparing your values with the screenshot below.
 
-<img align="middle" src="/assets/images/Lab3_7.jpg" width="800" />
+<img align="middle" src="/digital/assets/images/Lab3_7.jpg" width="800" />
 <br/>
 <br/>
 
@@ -217,13 +217,13 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Click on **Save**
 
-<img align="middle" src="/assets/images/Lab3_27.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_27.jpg" width="600" />
 <br/>
 <br/>
 
 - Create another Skill definition of same type `Boolean` with **_Name_** as `Support_0XX`
 
-<img align="middle" src="/assets/images/Lab3_28.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_28.jpg" width="600" />
 <br/>
 <br/>
 
@@ -239,13 +239,13 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Click on **Save**
 
-<img align="middle" src="/assets/images/Lab3_29.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_29.jpg" width="600" />
 <br/>
 <br/>
 
 - Create another Skill Profile with Name `Support_0XX` with `Sales_0XX` skill value to False and Support skill value to True
 
-<img align="middle" src="/assets/images/Lab3_30.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_30.jpg" width="600" />
 <br/>
 <br/>
 
@@ -253,13 +253,13 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Edit the Agent user created earlier by clicking on the 3 dotted menu
 
-<img align="middle" src="/assets/images/Lab3_31.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_31.jpg" width="600" />
 <br/>
 <br/>
 
 - In the agent settings, Select `Skill Profile_0XX` as `Sales_0XX` and click **Save**
 
-<img align="middle" src="new_images\Lab3_chat\lab3_4_assign_agent_skill_profile_png" width="600" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_4_assign_agent_skill_profile_png" width="600" />
 <br/>
 <br/>
 
@@ -271,31 +271,31 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - From Management Portal, access the menu and cross launch **New Digital Channels Admin Portal** by choosing `New Digital Channels`
 
-<img align="middle" src="/assets/images/Lab3_13.jpg" width="400" />
+<img align="middle" src="/digital/assets/images/Lab3_13.jpg" width="400" />
 <br/>
 <br/>
 
 - Go to `Assets` > search and edit the chat asset which we created earlier in **Step 1**
 
-<img align="middle" src="/assets/images/Lab3_14.jpg" width="400" />
+<img align="middle" src="/digital/assets/images/Lab3_14.jpg" width="400" />
 <br/>
 <br/>
 
 - Scroll down and click the pencil icon under the Action menu
 
-<img align="middle" src="/assets/images/Lab3_15.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_15.jpg" width="1000" />
 <br/>
 <br/>
 
 - Scroll to top of the page and choose `Websites` and then click `Add Website`
 
-<img align="middle" src="/assets/images/Lab3_16.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_16.jpg" width="1000" />
 <br/>
 <br/>
 
 - Enter the respective fields as per Screenshots below. Note we are going to insert the chat bubble into an online HTML editor for testing www.w3schools.com. The `Domain` field should contain the domain where you will insert the chat bubble.
 
-<img align="middle" src="/assets/images/Lab3_17.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_17.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -305,7 +305,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Select the `Widget Visibility` tab and click on `Show without restriction` and `SAVE CHANGES`
 
-<img align="middle" src="/assets/images/Lab3_26.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_26.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -316,7 +316,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 - There's still a few bits to configure but we can now verify that the live chat widget loads.
 - Go to Webex Connect Engage portal, select Installation tab and Copy the chat script code.
 
-<img align="middle" src="/assets/images/Lab3_18.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_18.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -324,13 +324,13 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Paste de chat bubble code just above the `</body>` tag
 
-<img align="middle" src="/assets/images/Lab3_24.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_24.jpg" width="1000" />
 <br/>
 <br/>
 
 - Click the Run button and the chat bubble should appear on the right side of the HTML online editor. Verify your settings if that does not happen and contact the lab proctor.
 
-<img align="middle" src="/assets/images/Lab3_25.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_25.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -344,19 +344,19 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Go to `Assets` > `Templates` and click the + icon besides Template Groups table header.
 
-<img align="middle" src="/assets/images/Lab3_47.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_47.jpg" width="1000" />
 <br/>
 <br/>
 
 - In the Group Name field, enter `TemplateGroup_00X` as the template group name and click `Add`
 
-<img align="middle" src="/assets/images/Lab3_48.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_48.jpg" width="600" />
 <br/>
 <br/>
 
 - You can choose to create a common template for all channels or create channel-specific templates. We will create a common template but also feel free to create other channel specific templates. Channel specific templates will only be shown to the agent when they receive a contact from that channel. Click `Add Template` button at the top right
 
-<img align="middle" src="/assets/images/Lab3_49.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_49.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -368,7 +368,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 **NOTE:** The End template, Start template and Followup template may not exist in your version
 
-<img align="middle" src="/assets/images/Lab3_50.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_50.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -378,11 +378,11 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Add another common template that has the checkboxes `Is End Template` and `Is Follow-up Template` checked like in the following screenshots
 
-<img align="middle" src="/assets/images/Lab3_51.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_51.jpg" width="1000" />
 <br/>
 <br/>
 
-<img align="middle" src="/assets/images/Lab3_52.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_52.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -400,7 +400,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - In the service click on **FLOWS** -> **CREATE FLOW** .
 
-<img align="middle" src="/assets/images/Lab3_19.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_19.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -408,7 +408,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Drag and drop the **Live Chat Inbound Flow.workflow** flow file that you unzipped, click **CREATE** and then click **SAVE**.
 
-<img align="middle" src="/assets/images/Lab3_20.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_20.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -418,13 +418,13 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - First Click `Save` in the `Configure APP Event` page that loaded, this defines what will trigger the flow and the default settings are already good.
 
-<img align="middle" src="/assets/images/Lab3_21.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_21.jpg" width="1000" />
 <br/>
 <br/>
 
 - Click on the gear button on the top right to load the flow settings dialog
 
-<img align="middle" src="/assets/images/Lab3_34.jpg" width="600" />
+<img align="middle" src="/digital/assets/images/Lab3_34.jpg" width="600" />
 <br/>
 <br/>
 
@@ -434,7 +434,7 @@ _domain_: Set it to `www.w3schools.com` (if this field is not present, move on)
 
 _liveChatDomain_: Set it to `www.w3schools.com`
 
-<img align="middle" src="new_images\Lab3_chat\lab3_8_chat_flow_cust_var_1_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_8_chat_flow_cust_var_1_png" width="1000" />
 <br/>
 <br/>
 
@@ -444,13 +444,13 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - We must select the right Live Chat Template as configured earlier so that the right Form is presented to the customer. Click on the `Pre-chat form` node and select `Form Template` as configured earlier and `Save`
 
-<img align="middle" src="new_images\Lab3_chat\lab3_9_select_pre_chat_template_gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_9_select_pre_chat_template_gif" width="1000" />
 <br/>
 <br/>
 
 3. The same must be done in the Receive node, double click on it and select the Form from the dropdown menu and `Save`
 
-<img align="middle" src="new_images\Lab3_chat\lab3_91_select_pre_chat_template_receive_node_gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_91_select_pre_chat_template_receive_node_gif" width="1000" />
 <br/>
 <br/>
 
@@ -458,19 +458,19 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - In the created workflow find the **Queue Task**, click twice, select the **QUEUE NAME** as **Chat_Q_SBR_0XX** and add Skill requirement for Sales_0XX to be True and click on **SAVE**.
 
-<img align="middle" src="/assets/images/Lab3_36.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_36.jpg" width="1000" />
 <br/>
 <br/>
 
 - Finally click on Make Live on top right corner -> Under Application select LiveChatAsset_0XX that corresponds to your Lab ID and click `Make Live`.
 
-<img align="middle" src="new_images\Lab3_chat\lab3_92_chat_flow_make_live_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_92_chat_flow_make_live_png" width="1000" />
 <br/>
 <br/>
 
 - Wait for 2 minutes and verify that the flow is published successfully.
 
-<img align="middle" src="/assets/images/Lab3_38.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_38.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -480,7 +480,7 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - Open a new tab and login to the Agent Desktop and make the agent Available (if you haven't done already in Lab2).
 
-<img align="middle" src="/assets/images/Lab2_Agent1.png" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab2_Agent1.png" width="1000" />
 <br/>
 <br/>
 
@@ -488,51 +488,51 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - Click `Start Conversation`
 
-<img align="middle" src="/assets/images/Lab3_39.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_39.jpg" width="1000" />
 <br/>
 <br/>
 
 - Fill in the form with customer options
 
-<img align="middle" src="/assets/images/Lab3_40.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_40.jpg" width="1000" />
 <br/>
 <br/>
 
 - The Live Chat will be offered to the agent. Click **Accept** to handle the SMS.
 
-<img align="middle" src="/assets/images/Lab3_41.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_41.jpg" width="1000" />
 <br/>
 <br/>
 
 - The form submission will be presented to the customer
 
-<img align="middle" src="/assets/images/Lab3_42.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_42.jpg" width="1000" />
 <br/>
 <br/>
 
 - Type a response and hit send button.
 
-<img align="middle" src="/assets/images/Lab3_43.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_43.jpg" width="1000" />
 <br/>
 <br/>
 
-<img align="middle" src="/assets/images/Lab3_44.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_44.jpg" width="1000" />
 <br/>
 <br/>
 
 - Make sure you test the Predefined Quick Response templates we created earlier in Step 5
 
-<img align="middle" src="/assets/images/Lab3_53.jpg" width="700" />
+<img align="middle" src="/digital/assets/images/Lab3_53.jpg" width="700" />
 
 - End the contact
 
-<img align="middle" src="/assets/images/Lab3_45.jpg" width="700" />
+<img align="middle" src="/digital/assets/images/Lab3_45.jpg" width="700" />
 <br/>
 <br/>
 
 - Add wrap up and close the task.
 
-<img align="middle" src="/assets/images/Lab3_46.jpg" width="400" />
+<img align="middle" src="/digital/assets/images/Lab3_46.jpg" width="400" />
 <br/>
 <br/>
 
@@ -540,47 +540,47 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - You can search and view conversation transcripts from the New Digital Channels Engage interface. Go to the already openned tab or from Management Portal, access the menu and cross launch **New Digital Channels Admin Portal** by choosing `New Digital Channels`. Then click on Switch to Customer Care button at the top right.
 
-<img align="middle" src="new_images\Lab3_chat\lab3_93_customer_care_png" width="400" />
+<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_93_customer_care_png" width="400" />
 <br/>
 <br/>
 
 - Click on the Search button at the top left
 
-<img align="middle" src="/assets/images/Lab3_55.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_55.jpg" width="1000" />
 <br/>
 <br/>
 
 - You can search for transcripts using many fields depending on the channel. In this case use the Name field and search using the Customer Name used while testing in Step 7. Once the conversation transcript shows up, click on the button in the last column.
 
-<img align="middle" src="/assets/images/Lab3_56.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab3_56.jpg" width="1000" />
 <br/>
 <br/>
 
 - Conversation transcript will load and you have the option to print as PDF
 
-<img align="middle" src="/assets/images/Lab3_57.jpg" width="500" />
+<img align="middle" src="/digital/assets/images/Lab3_57.jpg" width="500" />
 <br/>
 <br/>
 
 - On the customer end, they can also access the transcript by emailing it to their personal email account. Once conversation ended, click on the chat bubble hamburger icon and then select `Email transcript` option
 
-<img align="middle" src="/assets/images/Lab3_58.jpg" width="400" />
+<img align="middle" src="/digital/assets/images/Lab3_58.jpg" width="400" />
 <br/>
 <br/>
 
 - Enter email address to send the transcript to
 
-<img align="middle" src="/assets/images/Lab3_59.jpg" width="400" />
+<img align="middle" src="/digital/assets/images/Lab3_59.jpg" width="400" />
 <br/>
 <br/>
 
-<img align="middle" src="/assets/images/Lab3_60.jpg" width="400" />
+<img align="middle" src="/digital/assets/images/Lab3_60.jpg" width="400" />
 <br/>
 <br/>
 
 - Conversation transcript will be received in the following format:
 
-<img align="middle" src="/assets/images/Lab3_61.jpg" width="500" />
+<img align="middle" src="/digital/assets/images/Lab3_61.jpg" width="500" />
 <br/>
 <br/>
 

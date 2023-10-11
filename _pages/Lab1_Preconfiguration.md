@@ -41,7 +41,7 @@ Once you complete this preconfiguration lab, you are free to move on to either L
 
 ### Configuration Order
 
-<img align="middle" src="/assets/images/Lab1_ConfigOrder.png" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_ConfigOrder.png" width="1000" />
 <br/>
 <br/>
 
@@ -53,7 +53,7 @@ Webex Connect is required to provide a valid access token for using various Webe
 
 - In front of **Webex CC Engage** Click **Actions** -> **Manage**.
 
-<img align="middle" src="/assets/images/Lab1_Integration1.gif" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_Integration1.gif" width="1000" />
 <br/>
 <br/>
 
@@ -61,36 +61,36 @@ Webex Connect is required to provide a valid access token for using various Webe
 
 - Click **Action** → **Add Authorization** associated with the **WxCC Engage Authorization**, where Auth Type is oauth2 and Status is Authorization Pending.
 
-<img align="middle" src="/assets/images/Lab1_ManageIntegration1.png" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_ManageIntegration1.png" width="1000" />
 <br/>
 <br/>
 
 - Enter the Authorization Name and click **Authorize**. In that example we use **WxCC Engage Authorization**.
 
-<img align="middle" src="new_images/LAB1_preconfig/LAB1_1_engage_auth_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB1_preconfig/LAB1_1_engage_auth_png" width="1000" />
 <br/>
 <br/>
 
 - Click on the back button for being redirected back to **Integrations** page and in front of **Webex CC Task** Click **Actions** → **Manage**.
 
-<img align="middle" src="/assets/images/Lab1_ManageIntegration2.gif" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_ManageIntegration2.gif" width="1000" />
 <br/>
 <br/>
 
 - On the Manage Integrations page, scroll down to the **Node Authorizations** section. This section lists all the authorizations mapped to this integration. Click **Action** → **Add Authorization** associated with the **WxCC Authorisation**, where Auth Type is oauth2 and Status is Authorization Pending.
 
-<img align="middle" src="/assets/images/Lab1_ManageIntegration3.png" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_ManageIntegration3.png" width="1000" />
 <br/>
 <br/>
 
 - Enter the **Authorization Name** (for example: **WxCC Authorisation**) and click **Authorize**. As the result the pop-up appears where you need to enter your Cisco admin email address and click **Sign in**.
 
-<img align="middle" src="new_images\LAB1_preconfig\LAB1_2_task_auth_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\LAB1_preconfig\LAB1_2_task_auth_png" width="1000" />
 <br/>
 <br/>
 
 - Click back button for being redirected back to **Integrations** page. Verify that the status of the authorizations is changed to **Authorized**.
-  <img align="middle" src="/assets/images/Lab1_authorized2.gif" width="1000" />
+  <img align="middle" src="/digital/assets/images/Lab1_authorized2.gif" width="1000" />
   <br/>
   <br/>
 
@@ -107,7 +107,7 @@ Every tenant must include CA flows. CA flows can be imported from the template f
 
 2. Navigate to **webex connect -> v3.0 -> template -> event handling workflows**
 
-<img align="middle" src="new_images\LAB1_preconfig\LAB1_5_dl_CA_flows_gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images\LAB1_preconfig\LAB1_5_dl_CA_flows_gif" width="1000" />
 <br/>
 <br/>
 
@@ -117,7 +117,7 @@ Every tenant must include CA flows. CA flows can be imported from the template f
 
 5. Navigate to **Services** and click on **CREATE NEW SERVICE**.
 
-<img align="middle" src="/assets/images/Lab1_Services.png" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_Services.png" width="1000" />
 <br/>
 <br/>
 
@@ -127,7 +127,7 @@ Every tenant must include CA flows. CA flows can be imported from the template f
 
 7. In the service click on **FLOWS** -> **CREATE FLOW**.
 
-<img align="middle" src="/assets/images/Flows.png" width="1000" />
+<img align="middle" src="/digital/assets/images/Flows.png" width="1000" />
 <br/>
 <br/>
 
@@ -137,13 +137,13 @@ Every tenant must include CA flows. CA flows can be imported from the template f
 
 10. Now you can click on **CREATE** button.
 
-<img align="middle" src="/assets/images/Lab1_Create.png" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_Create.png" width="1000" />
 <br/>
 <br/>
 
 11. In the new menu click **SAVE** and then **MAKE LIVE**. On pop up window click on **MAKE LIVE** again.
 
-<img align="middle" src="new_images\LAB1_preconfig\LAB1_71_save_task_close_flow_gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images\LAB1_preconfig\LAB1_71_save_task_close_flow_gif" width="1000" />
 <br/>
 <br/>
 
@@ -161,7 +161,7 @@ If an agent doesn’t answer a contact request, the contact request will return 
 - Log in to the Control Hub at [https://admin.webex.com](https://admin.webex.com){:target="\_blank"}
 
 - Navigate to **Services** -> **Contact Center** -> **Settings** -> **Desktop** -> **RONA Timeouts**.
-  <img align="middle" src="new_images\LAB1_preconfig\lab1_8_RONA_timers_png" width="1000" />
+  <img align="middle" src="/digital/assets/new_images\LAB1_preconfig\lab1_8_RONA_timers_png" width="1000" />
   <br/>
   <br/>
 
@@ -183,7 +183,7 @@ If an agent doesn’t answer a contact request, the contact request will return 
 - Input Name as MMP.
 - In the Media Details section, select the blended multimedia profile and input `1` for Voice, `3` for Chat, `3` for Email, , `3` for Social Channel and click on Save button.
 
-<img align="middle" src="/assets/images\Lab1_MMP.png" width="1000" />
+<img align="middle" src="/digital/assets/images\Lab1_MMP.png" width="1000" />
 <br/>
 <br/>
 
@@ -193,7 +193,7 @@ If an agent doesn’t answer a contact request, the contact request will return 
 - Click on + New Site button and provide the Name as Site.
 - Select MMP in the Multimedia Profile drop down and hit Save.
 
-<img align="middle" src="/assets/images\Lab1_Site.png" width="1000" />
+<img align="middle" src="/digital/assets/images\Lab1_Site.png" width="1000" />
 <br/>
 <br/>
 
@@ -203,7 +203,7 @@ Navigate to Webex Connect: \*\*[https://labtenant.us.webexconnect.io](https://la
 
 - Click “Create New Service” button and add a service named My First Service <0XX> where 0XX is your 3 digit Lab ID. In all subsequent labs, assets will be associated to this service
 
-<img align="middle" src="new_images\LAB1_preconfig\AddServiceForLabs.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images\LAB1_preconfig\AddServiceForLabs.gif" width="1000" />
 <br/>
 <br/>
 
@@ -269,7 +269,7 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
 - Make sure that the user are now shown with the **_Contact Center Enabled_** flag as `Yes` and **_Status_** as `Active`.
 
-<img align="middle" src="/assets/images/Lab1_User.png" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_User.png" width="1000" />
 <br/>
 <br/>
 
@@ -293,7 +293,7 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
 - Select the `Team1_0XX` and click **_Submit_**. Make sure that you are successfully logged in to the Agent Desktop. Now you can continue with the Next Lab.
 
-<img align="middle" src="new_images\LAB1_preconfig\Lab1_9_Agent_login_gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images\LAB1_preconfig\Lab1_9_Agent_login_gif" width="1000" />
 <br/>
 <br/>
 
