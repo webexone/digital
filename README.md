@@ -1,11 +1,11 @@
 ---
-title: 'Dip into NEW Digital Channels for Webex Contact Center'
+title: 'Home'
 author: Dave Easton, Karthik Sundaram
 date: 2023-10-04
 layout: post
 ---
 
-[Switch to LIGHT MODE](https://webexone.github.io/digital/Home){:target="\_blank"}
+[Switch to LIGHT MODE](https://webexone.github.io/digital/){:target="\_blank"}
 
 <img align="middle" src="/assets/images/Admin.jpeg" width="1000" />
 
