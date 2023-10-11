@@ -5,7 +5,7 @@ date: 2023-10-04
 layout: post
 ---
 
-[Switch to LIGHT MODE](https://ciscolivelabs.github.io/wxcclabguides/Cisco_Live_US/LTRCCT-2013-simplified/LTRCCT-2013/Home){:target="\_blank"}
+[Switch to LIGHT MODE](https://webexone.github.io/digital/pages/Home){:target="\_blank"}
 
 <img align="middle" src="/digital/assets/images/Admin.jpeg" width="1000" />
 
