@@ -8,8 +8,8 @@ description: >
 version: 1.0
 gitbook_version: 3.2.3
 
-url: 'https://webexone.github.io/digital'
-baseurl: ''
+url: 'https://webexone.github.io'
+baseurl: '/digital'
 
 rss: RSS
 
