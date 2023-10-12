@@ -7,11 +7,11 @@ layout: post
 
 # Introduction
 
-### Lab pre-configuration and agent setup
+### Lab preconfiguration and agent setup
 
 Since the digital channels labs are in a shared tenant, the first 3 configuration steps have been done for you to save time and potentially duplicated efforts in the labs. Please note that these steps must be undertaken if you want to turn up digital channels in a true production environment, so we will note them here for your future reference.
 
-Please look over steps 1, 2 & 3, then proceed to steps 4 & 5 which will require admin configuration.
+Please look over steps 1, 2 & 3; then proceed to the subsequent steps which will require admin configuration.
 
 Once you complete this preconfiguration lab, you are free to move on to either Lab 2 (email), 3 (chat), 5 (SMS) or 6 (WhatsApp) depending on your preference.
 
@@ -25,7 +25,7 @@ Once you complete this preconfiguration lab, you are free to move on to either L
 - [Step 6. Setup Agents & teams in portal](#Agents-teams)
 - [Step 7. Verify access to the agent desktop](#Agent-desktop-access)
 
-### Pre-requisites
+### Prerequisites
 
 - You have received the access credentials with a full admin access
 - You have received the access to the agent and supervisor account.
@@ -45,7 +45,7 @@ Once you complete this preconfiguration lab, you are free to move on to either L
 <br/>
 <br/>
 
-## Step 1. Node Authorization for Webex CC Task and Engage nodes - This step has been preconfigured for you
+## Step 1. Node Authorization for Webex CC Task and Engage nodes - *This step has been preconfigured for you*
 
 Webex Connect is required to provide a valid access token for using various Webex Contact Center and Webex Engage APIs. The access token is generated using the authorization details configured within the ‘Node Runtime Authorization’ field that Webex Contact Center users are required to provide during flow configuration.
 
@@ -94,9 +94,11 @@ Webex Connect is required to provide a valid access token for using various Webe
   <br/>
   <br/>
 
-## Step 2. Download and upload CA flows in Connect - This step has been preconfigured for you
+## Step 2. Download and upload CA flows in Connect - *This step has been preconfigured for you*
 
 Every tenant must include CA flows. CA flows can be imported from the template folder in this [GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows){:target="\_blank"}. CA flows can be added only once and will be automatically be used by all existing channel specific flows in the tenant when needed. It is recommended to add these flows in a dedicated Service named “Agnostic Flows - DO NOT MODIFY”
+
+**UPDATE:** The new simplified workflows provided in the github repository accommodate the underlying tasks that used to require separate flows.  These CA or agnostic flows are now only needed if you are creating custom flows and require this functionality. 
 
 > The agnostic flows consist of:\
 > • Task Routed - Adding an agent participant to a conversation;\
@@ -149,7 +151,7 @@ Every tenant must include CA flows. CA flows can be imported from the template f
 
 12. **!!!** Go back and repeate steps 7 - 11 for **Task Routed flow** and **Task Modified Flow**. Select the corresponding names.
 
-## Step 3. Setup RONA timers - This step has been preconfigured for you
+## Step 3. Setup RONA timers - *This step has been preconfigured for you*
 
 If an agent doesn’t answer a contact request, the contact request will return to the queue and the agent state will change to **Redirection on No Answer (RONA)**. In this task, you will play with the feature that allows administrators to override the default RONA timeout values at the tenant level for every channel type to suit the business needs of the organization. The available channels are:
 
@@ -174,13 +176,18 @@ If an agent doesn’t answer a contact request, the contact request will return 
 | Email       | 90             | 1 - 6000 seconds |
 | Social      | 60             | 1 - 6000 seconds |
 
-## Step 4. Create a new Multimedia profile and a new site - This step has been preconfigured for you
+## Step 4. Create a new Multimedia profile and a new site - *This step has been preconfigured for you*
 
-- Login to Managment Portal by accessing https://portal.wxcc-us1.cisco.com/portal.
-- Enter the admin email address and click Sign in.
-- Click on Provisioning and select Multimedia Profiles.
+- Login to Managment Portal by accessing [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}
+
+- Enter the admin email address and click **_Sign in_**
+
+- Click on **_Provisioning_** and select **_Multimedia Profiles_**
+
 - Click on + New Multimedia Profile to open Multimedia Profile configuration page.
-- Input Name as MMP.
+
+- Input Name as `MMP_0XX`.
+
 - In the Media Details section, select the blended multimedia profile and input `1` for Voice, `3` for Chat, `3` for Email, , `3` for Social Channel and click on Save button.
 
 <img align="middle" src="/digital/assets/images\Lab1_MMP.png" width="1000" />
@@ -189,9 +196,11 @@ If an agent doesn’t answer a contact request, the contact request will return 
 
 ### Step 4.1. Create a new site
 
-- Navigate to Provisioning and select Site.
-- Click on + New Site button and provide the Name as Site.
-- Select MMP in the Multimedia Profile drop down and hit Save.
+- Navigate to **_Provisioning_** and select **_Site_**
+
+- Click on + New Site button and provide the Name as `Site_0XX`
+
+- Select `MMP_0XX` in the Multimedia Profile drop down and hit **_Save_**
 
 <img align="middle" src="/digital/assets/images\Lab1_Site.png" width="1000" />
 <br/>
@@ -199,9 +208,9 @@ If an agent doesn’t answer a contact request, the contact request will return 
 
 ## Step 5. Create a new service for your Digital channel flows
 
-Navigate to Webex Connect: \*\*[https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}
+Navigate to Webex Connect: [https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}
 
-- Click “Create New Service” button and add a service named My First Service <0XX> where 0XX is your 3 digit Lab ID. In all subsequent labs, assets will be associated to this service
+- Click **_Create New Service_** button and add a service named `My First Service 0XX` where 0XX is your 3 digit Lab ID. In all subsequent labs, assets will be associated to this service
 
 <img align="middle" src="/digital/assets/new_images\LAB1_preconfig\AddServiceForLabs.gif" width="1000" />
 <br/>
@@ -209,7 +218,7 @@ Navigate to Webex Connect: \*\*[https://labtenant.us.webexconnect.io](https://la
 
 ## Step 6. Setup agents in Portal (Agents, Team)
 
-> This step shows how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to the Contact Center user.
+This step shows how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to the Contact Center user.
 
 ### Users
 
@@ -220,14 +229,14 @@ The users have the following preconfiguration
 | Agent         | wxcclabs+agent\_ ID<0XX>@gmail.com |
 | Supervisor    | wxcclabs+supvr\_ ID<0XX>@gmail.com |
 
-> **Note:** Your admin account password was given to you personally. <0XX> is your 3 digit lab number.
+> **Note:** Your admin account password was given to you personally. <0XX> is your 3 digit lab number. For Example: ```wxcclabs+agent_ID070@gmail.com```
 
 ### User Settings
 
 | **Entity**          | **Name**  |
 | ------------------- | --------- |
-| Multimedia Profiles | MMP       |
-| Site                | Site      |
+| Multimedia Profiles | MMP_0XX       |
+| Site                | Site_0XX      |
 | Team1               | Team1_0XX |
 | Team2               | Team2_0XX |
 
@@ -259,13 +268,13 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
 - Click on **_Contact Center Enabled_** toggle to move it to **_On_**.
 
-- In the **_Agent Settings_** section, select `Site` in the **_Site_** drop-down.
+- In the **_Agent Settings_** section, select `Site_0XX` in the **_Site_** drop-down.
 
 - Click the **_Teams_** area and select `Team1_0XX` and `Team2_0XX`.
 
 - Select `Agent Profile` in the **_Agent Profile_** drop-down list.
 
-- Select `MMP` in the **_Multimedia Profile_** drop-down and hit **_Save_**.
+- Select `MMP_0XX` in the **_Multimedia Profile_** drop-down and hit **_Save_**.
 
 - Make sure that the user are now shown with the **_Contact Center Enabled_** flag as `Yes` and **_Status_** as `Active`.
 
@@ -275,11 +284,11 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
 - Please follow the same steps for **Supervisor** user.
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Step 7. Verification: Access to the Agent Desktop
 
-> **Note**: To log in to the agent desktop, use either a separate web browser or a new incognito web page. This will prevent any browser caching issues with admin and agent credentials.
+**Note**: To log in to the agent desktop, use either a separate web browser or a new incognito web page. This will prevent any browser caching issues with admin and agent credentials.
 
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="\_blank"}** in a new browser or in incognito mode.
 
@@ -297,7 +306,7 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 <br/>
 <br/>
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ---
 

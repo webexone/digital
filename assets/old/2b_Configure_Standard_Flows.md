@@ -75,7 +75,7 @@ Changelog:
 | --- | --- | --- | --- |
 | 1.0 | Initial Release | Chandra Sekhar Gali (chgali@cisco.com) | 27 Oct 21 |
 | 2.0 | Format Changes | Gagarin JS (gasathiy@cisco.com) | 09 Nov 2021 |
-| 3.0 | Adding pre-configured template info | Gagarin JS (gasathiy@cisco.com) | 10 Nov 2021 |
+| 3.0 | Adding preconfigured template info | Gagarin JS (gasathiy@cisco.com) | 10 Nov 2021 |
 
 <script>
 function mainPage() {window.location.href = "https://wxcctechsummit.github.io/wxcclabguides/NewDigital/HomePage.html";}

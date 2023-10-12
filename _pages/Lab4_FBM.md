@@ -46,7 +46,7 @@ In this lab you will be configuring Service, Chat Assets, Entry Point, Queue, Ch
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**\
 > Workflows: **[GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows){:target="\_blank"}**\
-> Connect: **[https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io) {:target="\_blank"}**\
+> Connect: **[https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}**\
 
 # Lab Section
 
