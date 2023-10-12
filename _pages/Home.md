@@ -5,7 +5,7 @@ date: 2023-10-04
 layout: post
 ---
 
-<img align="middle" src="../assets/images/Admin.jpeg" width="1000" />
+<img align="middle" src="/digital/assets/images/Admin.jpeg" width="1000" />
 
 Welcome to the Lab Guide Library. Here you will find the step-by-step guides on how to setup service for all the available digital channels.
 

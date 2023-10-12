@@ -38,7 +38,7 @@ In this lab, we will go through the concepts and basics of flow debugging option
 
 - Login to Webex Connect and navigate to Settings > Team mates
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.1_decrypt.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.1_decrypt.png" width="1000" />
 <br/>
 <br/>
 
@@ -52,17 +52,17 @@ In this lab, we will go through the concepts and basics of flow debugging option
 
 - Under actions click on 'arrow' mark and select manage. This will bring up flow workspace.
 
-<img align="middle" src="../assets/images/Lab9_1.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab9_1.jpg" width="1000" />
 <br/>
 <br/>
 
-<img align="middle" src="../assets/images/Lab9_2.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab9_2.jpg" width="1000" />
 <br/>
 <br/>
 
 - In order to enable debug logs to see the complete HTTP request and response, Click on settings icon from top right and enable the toggle 'descriptive logs'
 
-<img align="middle" src="../assets/images/Lab9_3.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab9_3.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -70,13 +70,13 @@ In this lab, we will go through the concepts and basics of flow debugging option
 
 - On the right pane click on debug which will bring up a window at the bottom of the screen
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.2_bug_icon.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.2_bug_icon.png" width="1000" />
 <br/>
 <br/>
 
 - Each row here represents logging for one task, click on 'decrypt logs' on the right side to see debug logging.
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.3_transID_decrypt.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.3_transID_decrypt.png" width="1000" />
 <br/>
 <br/>
 
@@ -84,13 +84,13 @@ In this lab, we will go through the concepts and basics of flow debugging option
 
 - For example, click on **Resolve conversation**, you can see the HTTP request and response cycle on the right.
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.4_resolve_node_log.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.4_resolve_node_log.png" width="1000" />
 <br/>
 <br/>
 
 - Each node will have either a success or error outcome. When debugging, we can review the individual interaction and based on the outcome of the node, further debugging steps can be taken.
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.5_resolve_node_outcome.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.5_resolve_node_outcome.png" width="1000" />
 <br/>
 <br/>
 
@@ -101,7 +101,7 @@ In this lab, we will go through the concepts and basics of flow debugging option
 
 - Once the flow you wish to analyze is opened, switch to the Analyse mode
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.51_analyse.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.51_analyse.png" width="1000" />
 <br/>
 <br/>
 
@@ -112,25 +112,25 @@ In this lab, we will go through the concepts and basics of flow debugging option
   - **Connector counter** indicates the number of transactions that have passed from the previous node to the following node.
   - **Node outcome counter** indicates the count of each outcomes of a node
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.7_connector_counters.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.7_connector_counters.png" width="1000" />
 <br/>
 <br/>
 
 - To view the execution time details, toggle 'Execution Time' button at the bottom of the flow builder in the Analyze mode.
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.8_exec_times.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.8_exec_times.png" width="1000" />
 <br/>
 <br/>
 
 - Click View Chart directly to see the Sankey chart for the complete flow.
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.81_view_chart.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.81_view_chart.png" width="1000" />
 <br/>
 <br/>
 
 - A Sankey chart provides a visual illustration of data and transaction flow from one node to another. The width of each node on the chart is proportional to the quantity of that node.
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.6_sankey_chart.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.6_sankey_chart.png" width="1000" />
 <br/>
 <br/>
 
@@ -145,7 +145,7 @@ In this lab, we will go through the concepts and basics of flow debugging option
 
 - Open the flow and on the right side click 'Share Flow' option to configure a password and share the flow in view only mode
 
-<img align="middle" src="../assets/new_images\Lab9_flowdebug\lab9.9_share_flow.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.9_share_flow.png" width="1000" />
 <br/>
 <br/>
 
