@@ -58,7 +58,12 @@ Starting May 30, 2022 the **Less Secure Apps** feature was disabled on all Googl
 | -------------------------------------------------------------------- |
 | Use your own existing gmail account or create a new one for this lab |
 
-- Login to the Gmail account. If this is your firtst login, select **Turn off smart features**
+- Login to the Gmail account. If this is your firtst login, select **Turn off smart features**. To turn off Smart Features on an existing account, click the gear icon in top right corner and scroll down in the General tab and uncheck the box next to Smart Features and personalization.   
+
+<img align="middle" src="/digital/assets/new_images/LAB2_email/01.TurnOffSmartFeatures.png" width="1000" />
+<br/>
+<br/>
+
 
 - Enable POP3/IMAP setting by clicking on settings icon on top right corner and selecting **See all settings**.
 
@@ -120,7 +125,7 @@ We need to activate the API if we want to use a Gmail accont for outbound email.
 
 - It will bring you to a page with many fields. Just enter the **App name** as `WebexApp`, choose your **User support email** and enter the same email in the **Developer contact information**. In the end press **SAVE AND CONTINUE**.
 
-<img align="middle" src="/digital/assets/new_images\LAB2_email\Lab2_8_google_console_app_info_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/02.ManyFields.png" width="1000" />
 <br/>
 <br/>
 
@@ -152,7 +157,7 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - In the **Authorized redirect URIs** section click **ADD URI** button and set `https://labtenant.us.webexconnect.io/callback`. Click **CREATE** button in the end.
 
-<img align="middle" src="/digital/assets/new_images\LAB2_email\Lab2_93_email_CreateoAuthClientID.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/03.CallbackURLCorrected.png" width="1000" />
 <br/>
 <br/>
 
@@ -178,7 +183,7 @@ Now create a new client ID that will be used to identify your application to Goo
 
 | **Entity**          | **Name**                                                            |
 | ------------------- | ------------------------------------------------------------------- |
-| Asset Name          | EmailAsset_0XX where <0XX> is your 3-digit attendee ID              |
+| Asset Name          | EmailAsset0XX where <0XX> is your 3-digit Lab ID  (NOTE: underscore not permitted)             |
 | Email ID            | Your gmail address here                                             |
 | Authentication Type | OAuth 2.0                                                           |
 | SMTP Server         | smtp.gmail.com                                                      |
@@ -192,7 +197,7 @@ Now create a new client ID that will be used to identify your application to Goo
 | Access Token URL    | https://oauth2.googleapis.com/token                                 |
 | Refresh Token URL   | https://oauth2.googleapis.com/token                                 |
 
-> where \<ID\> is your POD ID
+> where \<ID\> is your Lab ID
 
 - Click **GENERATE TOKEN** and follow the step on the screenshot:
 
@@ -212,53 +217,7 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
-### 2. Add forwarding Address
-
-- Copy the forwarding address from the created asset in the previous step then go back to your gmail account.
-
-<img align="middle" src="/digital/assets/images/Lab2_Assest4.png" width="1000" />
-<br/>
-<br/>
-
-- Go back to the Gmail account and click on settings icon on top right corner -> Select **See all settings**.
-
-<img align="middle" src="/digital/assets/images/Lab2_Gmail1.png" width="1000" />
-<br/>
-<br/>
-
-- Click on **Forwarding and POP/IMAP** -> click on **Add a forwarding address** -> Paste the copied forwarding address from the created asset. Then click on **Next**. In a new pop up tab click **Proceed** and then click **OK** when it prompts.
-
-<img align="middle" src="/digital/assets/images/Lab2_Gmail6.gif" width="1000" />
-<br/>
-<br/>
-
-- Go back to Webex Connect and click on **Tools** -> **Export Logs**.
-
-- Under Inbound logs, Select the App that was created -> Select Channel Event as `Incoming Email` -> Select the period as `Today`. Wait until status is changed to **Ready for download** and click **Download** icon.
-
-<img align="middle" src="/digital/assets/images/Lab2_ExportLog1.gif" width="1000" />
-<br/>
-<br/>
-
-- Once a log file is downloaded, open the log file, under the **Subject** column, copy the confirmation code.
-
-<img align="middle" src="/digital/assets/images/Lab2_ExportLog2.png" width="1000" />
-<br/>
-<br/>
-
-- Go back to the Gmail account, paste the code in the email account verification section and click verify.
-
-<img align="middle" src="/digital/assets/images/Lab2_Gmail8.png" width="1000" />
-<br/>
-<br/>
-
-- Select **Forward a copy of incoming mail to** the verified address and click **Save Changes**.
-
-<img align="middle" src="/digital/assets/images/Lab2_Gmail9.png" width="1000" />
-<br/>
-<br/>
-
-## Step 3. Email Entry Point and Queue creation
+## Step 2. Email Entry Point and Queue creation
 
 ### 1. Create Entry Point in Management Portal
 
@@ -266,11 +225,11 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - Click on `New Entry Point`.
 
-- Input **_Name_** as `Email_EP_0XX where 0XX is your 3 digit lab ID`.
+- Input **_Name_** as `Email_EP_0XX where 0XX is your 3-digit lab ID`.
 
 - Select `Email` in the **_Channel Type_** section.
 
-- Leave the **_Asset Name_** as appered value `EmailASSET_0XX`.
+- Leave the **_Asset Name_** as appered value `EmailASSET0XX`.
 
 - Set **_Service Level Threshold_** as `2` hours.
 
@@ -289,13 +248,13 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - Click on `New Queue`.
 
-- Input **_Name_** as `Email_Q_0XX` where 0XX is your 3 digit Lab ID.
+- Input **_Name_** as `Email_Q_0XX` where 0XX is your 3-digit Lab ID.
 
 - Select `Email` in the **_Channel Type_** section.
 
 - Leave the **_Queue Routing Type_** as default value `Longest Available Agent`.
 
-- In the the **_Email Distribution_** click on **Add Group** and select `Team1_0XX` where 0XX is your 3 digit Lab ID.
+- In the **_Email Distribution_** click on **Add Group** and select `Team1_0XX` where 0XX is your 3-digit Lab ID.
 
 - Set **_Service Level Threshold_** as `2` hours.
 
@@ -321,7 +280,7 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
-## Step 4. Create/Upload Email flow
+## Step 3. Create/Upload Email flow & verify forwarding on the Gmail account
 
 - Download the email flow from the [GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows)
 
@@ -347,17 +306,104 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
-- Click **Settings** on top right corner and switch to **Custom variables** tab. Here in the **bizemailid** row, update the default value with your email address of the Gmail account. Click **SAVE**.
+- Click **Settings** on top right corner and switch to **Custom variables** tab. Here in the **bizemailid** row, update the default value with the forwarding address you copied from your email asset earlier in step 2. Click SAVE Click **SAVE**.
 
-<img align="middle" src="/digital/assets/images/Lab2_WF3.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/04.bizemailID.png" width="1000" />
 <br/>
 <br/>
 
-- Finally click on Make Live on top right corner -> Select the Application/Asset that we have created and click Make Live.
+When prompted, turn on descriptive logs and enter `1000`` in the **minutes** field and click **SAVE**
+
+<img align="middle" src="/digital/assets/new_images/LAB2_email/05.logMinutes.png" width="1000" />
+<br/>
+<br/>
+
+- Finally click on Make Live on top right corner -> Select the email Application/Asset that we have created and click Make Live.
 
 <img align="middle" src="/digital/assets/images/Lab2_WF4.png" width="1000" />
 <br/>
 <br/>
+
+Wait approximately 2 minutes to make sure your flow shows LIVE before proceeding with the next steps.  
+
+<img align="middle" src="/digital/assets/new_images/LAB2_email/06.MakeLive.png" width="1000" />
+<br/>
+<br/>
+
+
+### 4. Add forwarding Address Gmail Account and confirm the forwarding with URL from your email debug logs
+
+- Using the the forwarding address from your email asset in the previous step , go back to your gmail account.
+
+<img align="middle" src="/digital/assets/images/Lab2_Assest4.png" width="1000" />
+<br/>
+<br/>
+
+- In your Gmail account click on settings icon on top right corner -> Select **See all settings**.
+
+<img align="middle" src="/digital/assets/images/Lab2_Gmail1.png" width="1000" />
+<br/>
+<br/>
+
+- Click on **Forwarding and POP/IMAP** -> click on **Add a forwarding address** -> Paste the copied forwarding address from the created asset. Then click on **Next**. In a new pop up tab click **Proceed** and then click **OK** when it prompts.
+
+<img align="middle" src="/digital/assets/images/Lab2_Gmail6.gif" width="1000" />
+<br/>
+<br/>
+
+- Go back to Webex Connect and click on `Service_0XX`` -> **Flows** >> then double click your email flow to open it in the flow editor.   
+
+<img align="middle" src="/digital/assets/new_images/Lab2_Email/07.OpenInFlowEditor.gif" width="1000" />
+<br/>
+<br/>
+
+- Click on the **bug icon** in the right side vertical menu. This will open the transaction debug logs for your email flow. When the logs load, you should see one transaction which will be the forwarding verification email from Google.   Click that transaction ID and then click the **decrypt logs** button.  Copy the data text from the `Configure Email Event` entry in the lower right pane
+
+<img align="middle" src="/digital/assets/new_images/Lab2_Email/08.OpenDecryptLogs.gif" width="1000" />
+<br/>
+<br/>
+
+- Launch Notepad++ text editor on your lab computer.  Click Control+F to open the Find box.  Make sure that “regular expression” option is checked in the lower left
+
+<img align="middle" src="/digital/assets/new_images/Lab2_Email/09.Notepad.png" width="1000" />
+<br/>
+<br/>
+
+Paste in the data from the debug logs you copied above. Press ctrl+F to bring up the Find box.  Click the Replace tab in the Find box. We are going to replace some character strings to make the data readable.
+   
+In the Replace box
+Find:  `\\\\r\\\\n`
+Replace with:  `\r\n` 
+Hit **REPLACE ALL**
+
+Next, In the Replace box
+Find: `\\\\/`
+Replace with: `/`
+Hit **REPLACE ALL**
+
+<img align="middle" src="/digital/assets/new_images/Lab2_Email/10.NotepadFindAndReplace.gif" width="1000" />
+<br/>
+<br/>
+
+- Replacing these character strings should format the data so it is readable. Look for the link to confirm your forwarding request.  Paste the link into a browser
+
+<img align="middle" src="/digital/assets/new_images/Lab2_Email/11.BetterFormatTextFile.png" width="1000" />
+<br/>
+<br/>
+
+- Click confirm button to confirm the forwarding. You will get a confirmation success message. 
+
+
+<img align="middle" src="/digital/assets/new_images/Lab2_Email/12.Confirmation.png" width="1000" />
+<br/>
+<br/>
+
+- Back in the settings of your Gmail account, forwarding should be reflected in the Forwarding and POP/IMAP tab.
+
+<img align="middle" src="/digital/assets/new_images/Lab2_Email/13.GmailScreenShot.png" width="1000" />
+<br/>
+<br/>
+
 
 [To the top of this lab](#table-of-contents)
 
@@ -379,7 +425,7 @@ Now create a new client ID that will be used to identify your application to Goo
 
 - Add wrap up and close the task.
 
-## [Back to top](#table-of-contents)
+## [Back to the top](#table-of-contents)
 
 ### Congratulations, you have completed this section!
 
