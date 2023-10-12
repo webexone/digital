@@ -200,7 +200,7 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 - Wait for 2 minutes and verify that the flow is **published** successfully.
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Verification - send SMS and accept the request
 

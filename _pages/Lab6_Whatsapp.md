@@ -208,7 +208,7 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 <br/>
 <br/>
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Verification - send Whatsapp message and accept the request
 

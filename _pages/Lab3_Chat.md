@@ -53,14 +53,14 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com){:target="\_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**\
-> Workflows: **[GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows) {:target="\_blank"}**\
-> Connect: **[https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io) {:target="\_blank"}**\
+> Workflows: **[GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows){:target="\_blank"}**\
+> Connect: **[https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}**\
 
 # Lab Section
 
 ## Step 1. Live Chat Asset creation & register to Webex Engage
 
-- Login to your respective Webex Connect UI using the provided URL https://labtenant.us.webexconnect.io
+- Login to your respective Webex Connect UI using the provided URL [https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}\
 
 - Navigate to `Assets` > `Apps` > `Configure New App` > `Mobile / Web`
 
@@ -78,7 +78,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 - Select `REGISTER TO WEBEX Engage` and choose the Service you have created and REGISTER
 
-<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_1_register_app_to_webex_engage_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_1_register_app_to_webex_engage_png" width="1000" />
 <br/>
 <br/>
 
@@ -90,7 +90,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 - Verify that the `Register to Webex Engage` option is now disabled and there is a message indicating the time when the asset was registered along with the service to which it is assigned.
 
-<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_3_confirm_register_app_to_service_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_3_confirm_register_app_to_service_png" width="1000" />
 <br/>
 <br/>
 
@@ -100,7 +100,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 <br/>
 <br/>
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Step 2. Chat Template creation for website integration
 
@@ -112,7 +112,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 <br/>
 <br/>
 
-- Name your template ChatTemplate_0XX where <0XX> is your 3 digit Lab ID. Choose Channel as `Live Chat / In-App Messaging`
+- Name your template `ChatTemplate_0XX` where <0XX> is your 3 digit Lab ID. Choose Channel as `Live Chat / In-App Messaging`
 
 - Message Type as `Form`
 
@@ -122,7 +122,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 <br/>
 <br/>
 
-- We will be adding form fields now. Firstly the Name. Click on `Add field` and then fill in the details as per the screenshot
+- We will be adding the form fields now. Firstly the Name. Click on `Add field` and then fill in the details as per the screenshot
 
 <img align="middle" src="/digital/assets/images/Lab3_10.jpg" width="600" />
 <br/>
@@ -149,7 +149,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 <br/>
 <br/>
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Step 3. Chat Entry Point and Queue creation
 
@@ -259,11 +259,11 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - In the agent settings, Select `Skill Profile_0XX` as `Sales_0XX` and click **Save**
 
-<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_4_assign_agent_skill_profile_png" width="600" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_4_assign_agent_skill_profile_png" width="600" />
 <br/>
 <br/>
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Step 4. Website Settings
 
@@ -336,7 +336,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Click on the chat bubble icon and it should show the previously configured livechat widget.
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Step 5. Quick response template creation
 
@@ -434,7 +434,7 @@ _domain_: Set it to `www.w3schools.com` (if this field is not present, move on)
 
 _liveChatDomain_: Set it to `www.w3schools.com`
 
-<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_8_chat_flow_cust_var_1_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_8_chat_flow_cust_var_1_png" width="1000" />
 <br/>
 <br/>
 
@@ -444,13 +444,13 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - We must select the right Live Chat Template as configured earlier so that the right Form is presented to the customer. Click on the `Pre-chat form` node and select `Form Template` as configured earlier and `Save`
 
-<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_9_select_pre_chat_template_gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_9_select_pre_chat_template_gif" width="1000" />
 <br/>
 <br/>
 
 3. The same must be done in the Receive node, double click on it and select the Form from the dropdown menu and `Save`
 
-<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_91_select_pre_chat_template_receive_node_gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_91_select_pre_chat_template_receive_node_gif" width="1000" />
 <br/>
 <br/>
 
@@ -464,7 +464,7 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - Finally click on Make Live on top right corner -> Under Application select LiveChatAsset_0XX that corresponds to your Lab ID and click `Make Live`.
 
-<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_92_chat_flow_make_live_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_92_chat_flow_make_live_png" width="1000" />
 <br/>
 <br/>
 
@@ -474,7 +474,7 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 <br/>
 <br/>
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Step 7. Verification - start live chat and accept the request
 
@@ -540,7 +540,7 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - You can search and view conversation transcripts from the New Digital Channels Engage interface. Go to the already openned tab or from Management Portal, access the menu and cross launch **New Digital Channels Admin Portal** by choosing `New Digital Channels`. Then click on Switch to Customer Care button at the top right.
 
-<img align="middle" src="/digital/assets/new_images\Lab3_chat\lab3_93_customer_care_png" width="400" />
+<img align="middle" src="../new_images/Lab3_chat/lab3_93_customer_care_png" width="400" />
 <br/>
 <br/>
 

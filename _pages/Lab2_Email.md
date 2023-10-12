@@ -8,9 +8,9 @@ layout: post
 # Table of Contents
 
 - [Step 1. Gmail account configuration](#step-1-gmail-account-configuration)
-- [Step 2. Create Email Asset and Register to WebeXCC](#step-2-create-email-asset-and-register-to-webexcc)
+- [Step 2. Create Email Asset and Register to Webex CC](#step-2-create-email-asset-and-register-to-webexcc)
 - [Step 3. Email Entry Point and Queue creation](#step-3-email-entry-point-and-queue-creation)
-- [Step 4. Create/Upload Email flow](#step-4-createupload-email-flow)
+- [Step 4. Create/Upload Email flow & verify Gmail account forwarding](#step-4-createupload-email-flow)
 - [Verification: Send an Email and accept the task](#verification-send-an-email-and-accept-the-task)
 
 # Introduction
@@ -21,10 +21,10 @@ In this Lab, we will go through the tasks that are required to complete the basi
 
 In this lab you will be configuring **Gmail** Account settings, Email Assets, Entry Point and corresponding workflows. All those steps are required for connecting the Email account with our application.
 
-### Pre-requisite
+### Prerequisite
 
 1. You received an admin credentials to configure in Management Portal and Webex Connect.
-2. You received Email account credentials.
+2. You have created a Gmail account or have an existing gmail account you can use
 3. Lab1 Preconfiguration has been completed
 
 **Preconfiguration**.
@@ -359,7 +359,7 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
-[To top of this lab](#table-of-contents)
+[To the top of this lab](#table-of-contents)
 
 ## Verification: Send an Email and accept the task
 

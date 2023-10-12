@@ -157,7 +157,7 @@ In this lab, we will go through the concepts and basics of flow debugging option
 function mainPage() {window.location.href = "Home";}
 function nextLab() 
  {
- window.location.href = "Home";
+ window.location.href = "Lab10_Bot";
  }
 </script>
 
@@ -172,6 +172,6 @@ function nextLab()
   right: 200px;
   border-radius: 5px;
   background-color: rgb(116,191,75);
-  padding: 10px;">You have nowhere else to be!</button>
+  padding: 10px;">Go to the next lab</button>
 
 </div>
