@@ -404,6 +404,11 @@ Hit **REPLACE ALL**
 <br/>
 <br/>
 
+- Last forwarding step:  open your email flow and click the **Edit** button top right corner, then click the settings **gear** icon and click the **Custom Variables** tab inside the Flow Settings box.  Replace the **bizemailid** variable with your Gmail address.  Save the settings, then click **Make Live** to publish your flow
+
+<img align="middle" src="/digital/assets/new_images/Lab2_Email/14.bizemailid.png" width="1000" />
+<br/>
+<br/>
 
 [To the top of this lab](#table-of-contents)
 
