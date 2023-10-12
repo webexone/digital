@@ -44,13 +44,13 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - Log on to Connect portal [https://labtenant.us.webexconnect.io/](https://labtenant.us.webexconnect.io/) and navigate to BOT Builder
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/1.QAbot_gotoBB.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/1.QAbot_gotoBB.gif" width="1000" />
 <br/>
 <br/>
 
 - Click the +New Q&A Bot button in upper right corner.  Give your bot a name and enable **agent handover** and the **allow feedback** options.  Name your bot `QABot_0XX` where 0XX is your 3-digit Lab ID
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/2.Qabot_addBot.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/2.Qabot_addBot.gif" width="1000" />
 <br/>
 <br/>
 
@@ -60,7 +60,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 **NOTE:** If you were setting up a production QA bot for a bank you could import multiple (or all) of the articles in the catalogue and then customize them as per the needs of your application.  
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/3.QAbot_article.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/3.QAbot_article.gif" width="1000" />
 <br/>
 <br/>
 
@@ -70,32 +70,32 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - Click **Save & Train** to save your changes and train the bot to use your new response. 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/4.QAbot_newReply.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/4.QAbot_newReply.gif" width="1000" />
 <br/>
 <br/>
 
 - Add a new variant to the article to give a greater chance for a match when customers are asking questions of you bot.  Click **Add variant** and type a question that a customer might ask about their debit or credit card not working.  Type *“My card is stuck in the ATM”* in the box.  Click **Save & Train**
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/5.QAbot_newVariant.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/5.QAbot_newVariant.gif" width="1000" />
 <br/>
 <br/>
 
 - Change the bot’s default agent handoff response to let the customer know you are sending them to an agent.  Click the default Agent Article and in the `Variant 1` text box, overwrite the default message with *“Sure. Let me forward you to one of our helpful representatives. One moment…”*
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/5a.QAbot_agentmsg2.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/5a.QAbot_agentmsg2.gif" width="1000" />
 <br/>
 <br/>
 
 
 - Once the Article and variants are added, click on preview on top right to test your BOT responses.  Type your new variant (*“My card is stuck in the ATM”*) to verify the bot responds correctly.  If the response is correct, you can upvote it.  Also feel free to try some of the variants in other articles to see how the default bot answers.
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/6.QAbot_preview.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/6.QAbot_preview.gif" width="1000" />
 <br/>
 <br/>
 
 - Click on the **Sessions** menu to to see previous bot interactions and how user inputs matched with your Articles
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/7.QAbot_sessions.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/7.QAbot_sessions.gif" width="1000" />
 <br/>
 <br/>
 
@@ -110,19 +110,19 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - Set the primary and secondary transport protocols as `MQTT` and `WebSockets` and check `Use Secured port` box.   **SAVE**
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/9.QAbot_createapp.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/9.QAbot_createapp.gif" width="1000" />
 <br/>
 <br/>
 
 - Register your new app to Engage and associate it to your lab `Service_0XX`
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/91.QAbot_engage.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/91.QAbot_engage.gif" width="1000" />
 <br/>
 <br/>
 
 - Back at the main **Assets** >> **Apps** menu, note the App ID of your new app.  You will need this alphanumeric ID later in step 7.  
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/99.QAbot_AppID.png" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/99.QAbot_AppID.png" width="1000" />
 <br/>
 <br/>
 
@@ -137,7 +137,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - In the **Asset Name** drop down box, choose the new `QA_Bot_0XX` asset you created in the steps above.  **SAVE**
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/93.QAbot_Asset.png" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/93.QAbot_Asset.png" width="1000" />
 <br/>
 <br/>
 
@@ -146,7 +146,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - Cross-launch the engage portal from the Webex CC admin portal by clicking the **New Digital Channels** icon in the sidebar menu. 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/95.QAbot_engage.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/95.QAbot_engage.gif" width="1000" />
 <br/>
 <br/>
 
@@ -160,7 +160,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
    - General Tab >> Domain >> `www.w3schools.com`
 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/96A.QAbot_website2.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/96A.QAbot_website2.gif" width="1000" />
 <br/>
 <br/>
 
@@ -168,13 +168,13 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
    - Select >> **show without any restrictions** 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/97.QAbot_appearance.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/97.QAbot_appearance.gif" width="1000" />
 <br/>
 <br/>
 
 - Click the back arrow next to website settings and click the **Installation** tab.  Click the **copy** button and paste the html code into notepad.  Or alternately, keep this window open so you can access it later. You will need this code in subsequent steps when we test our QA bot.   
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/98.QAbot_code.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/98.QAbot_code.gif" width="1000" />
 <br/>
 <br/>
 
@@ -183,7 +183,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - Access the pre-built [GITHUB BOT FLOWS](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Sample/Bot%20Flows) and download the file named `LiveChatQAInboundFlow.workflow.zip`
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/8.QAbot_getFlow.png" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/8.QAbot_getFlow.png" width="1000" />
 <br/>
 <br/>
 
@@ -193,7 +193,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - Click **Create** and then click **Save** on the **Configure Mobile & Web App Event** box. After a few seconds, your flow will populate in the flow builder.   
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/92.QAbot_uploadflow.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/92.QAbot_uploadflow.gif" width="1000" />
 <br/>
 <br/>
 
@@ -211,7 +211,7 @@ In this step you will configure the flow’s custom variables and change fields 
 
 - Click **SAVE**.  If prompted to fill in a field for **Descriptive Logs**, enter 1000 and click **save** again.  
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/991.QAbot_CVs.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/991.QAbot_CVs.gif" width="1000" />
 <br/>
 <br/>
 
@@ -224,7 +224,7 @@ In this step you will configure the flow’s custom variables and change fields 
 - In the **Queue Task** node, go to the **Queue name** field and select the chat queue you built earlier in Livechat Lab 3.
 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/94.QAbot_configFlow.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/94.QAbot_configFlow.gif" width="1000" />
 <br/>
 <br/>
 
@@ -232,19 +232,19 @@ In this step you will configure the flow’s custom variables and change fields 
 
 - When prompted, associate the flow to the `QAbot_app_0XX`` that you created earlier in the steps above.  Click **Make Live** again. 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/992.QAbot_makeLive.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/992.QAbot_makeLive.gif" width="1000" />
 <br/>
 <br/>
 
 - Once you make your flow live, it will move to a publishing stage…. 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/993.QAbot_pub.png" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/993.QAbot_pub.png" width="1000" />
 <br/>
 <br/>
 
 - •	…and then a few minutes later it will show up as Live.  You cannot test your flow until it is LIVE
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/994.QAbot_live.png" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/994.QAbot_live.png" width="1000" />
 <br/>
 <br/>
 
@@ -272,7 +272,7 @@ In this step you will configure the flow’s custom variables and change fields 
 
 - **NOTE:** This video clip is long but includes all the steps above needed to test your QA bot
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/994.QAbot_TEST.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/994.QAbot_TEST.gif" width="1000" />
 <br/>
 <br/>
 
@@ -282,7 +282,7 @@ In this step you will configure the flow’s custom variables and change fields 
 - In the chat widget, click the **menu** icon in the upper left corner.  
 - Select **email transcript**.  Enter your email address and hit Send. 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/995.Qabot_emailtranscript.gif" width="1000" />
+<img align="middle" src="../assets/new_images/Lab10_bot/995.Qabot_emailtranscript.gif" width="1000" />
 <br/>
 <br/>
 

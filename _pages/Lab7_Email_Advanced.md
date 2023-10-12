@@ -37,7 +37,7 @@ You have successfully completed the Lab1 and Lab2 (Email Configuration).
 
 Before proceeding with the configuration task, you need to understand the flow logic. Please follow the diagram below and call the proctor if you have any questions.
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\Lab_7.0_overview.png" width="1000" />
+<img align="middle" src="../assets/new_images\Lab7_advemail\Lab_7.0_overview.png" width="1000" />
 <br/>
 <br/>
 
@@ -57,19 +57,19 @@ In this task, we will use the predefined node **PIQ and EWT**. This node provide
 
 - Drag and drop the **PIQ and EWT** node from the Node Palette to the main canvas.
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\lab_7.1_move_piq_node.gif" width="1000" />
+<img align="middle" src="../assets/new_images\Lab7_advemail\lab_7.1_move_piq_node.gif" width="1000" />
 <br/>
 <br/>
 
 - Delete the existing **Queue Task** `Queued` link by clicking on it and pressing the delete button. Re-connect the **Queue Task** with the **PIQ and EWT**
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\lab_7.2_cnnct_Q_to_PIQ.gif" width="1000" />
+<img align="middle" src="../assets/new_images\Lab7_advemail\lab_7.2_cnnct_Q_to_PIQ.gif" width="1000" />
 <br/>
 <br/>
 
 - You will have to set the Queue ID in the PIQ node. Copy the Queue ID from the **[Management Portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}** -> **_Provisioning_** -> **_Entry Points/Queues_** -> **_Queue_** - make sure to copy the Queue ID from the 0XX queue that corresponds to your lab
 
-<img align="middle" src="/digital/assets/images/Lab7_QueueID.png" width="1000" />
+<img align="middle" src="../assets/images/Lab7_QueueID.png" width="1000" />
 <br/>
 <br/>
 
@@ -83,13 +83,13 @@ In this task, we will use the predefined node **PIQ and EWT**. This node provide
 | TASK ID                    | $(taskId)                          |
 | LOOKBACK MINUTES           | 5                                  |
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\Lab_7.5_PIQ_settings.png" width="1000" />
+<img align="middle" src="../assets/new_images\Lab7_advemail\Lab_7.5_PIQ_settings.png" width="1000" />
 <br/>
 <br/>
 
 - Click **SAVE** and link all exit states of **PIQ and EWT** with **email node**.
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\lab_7.3_cnnct_piq_to_email.gif" width="1000" />
+<img align="middle" src="../assets/new_images\Lab7_advemail\lab_7.3_cnnct_piq_to_email.gif" width="1000" />
 <br/>
 <br/>
 
@@ -99,7 +99,7 @@ In the default workflow, auto-reply is already configured for all new tasks. In 
 
 - Double-click the the **Email** node and in the **MESSAGE** field.
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\Lab_7.31_email_auto_reply_node.png" width="1000" />  
+<img align="middle" src="../assets/new_images\Lab7_advemail\Lab_7.31_email_auto_reply_node.png" width="1000" />  
 <br/>
 <br/>
 
@@ -111,7 +111,7 @@ Press **SAVE**.
 
 > **Note:** Your PIQ node ID can be different from the example above. Select the right variable from the **Input Variables** in the right panel.
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\Lab_7.4_PIQ_auto_reply.png" width="1000" />  
+<img align="middle" src="../assets/new_images\Lab7_advemail\Lab_7.4_PIQ_auto_reply.png" width="1000" />  
 <br/>
 <br/>
 
@@ -148,13 +148,13 @@ We will use the **Branch** node which allows you to split your flow based on con
 
 - Drag the **Branch** node from the nodes palette to the main canvas.
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\lab_7.6_add_branch_node.gif" width="1000" />  
+<img align="middle" src="../assets/new_images\Lab7_advemail\lab_7.6_add_branch_node.gif" width="1000" />  
 <br/>
 <br/>
 
 - Delete the existing link from first **Email node** to the **Queue Task** node. Reconnect **Email node** to the **Branch node**
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\lab_7.7_connect_email_to_branch.gif" width="1000" />  
+<img align="middle" src="../assets/new_images\Lab7_advemail\lab_7.7_connect_email_to_branch.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -166,7 +166,7 @@ We will use the **Branch** node which allows you to split your flow based on con
 | CONDITION        | Regular expression (RegEx)         |
 | VALUE            | [wW][eE][bB][eE][xX]\s[oO][nN][eE] |
 
-<img align="middle" src="/digital/assets/images/Lab7_subject3.png" width="1000" />  
+<img align="middle" src="../assets/images/Lab7_subject3.png" width="1000" />  
 <br/>
 <br/>
 
@@ -176,7 +176,7 @@ We will use the **Branch** node which allows you to split your flow based on con
 
 - Connect `onError` node outcome with the **Close Task Node** .
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\lab_7.8_add_Q_node_2.gif" width="1000" />  
+<img align="middle" src="../assets/new_images\Lab7_advemail\lab_7.8_add_Q_node_2.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -191,7 +191,7 @@ Double-click the second **Queue Task** node and set the following options:
 | MEDIA CHANNEL      | Email                  |
 | QUEUE NAME         | Email_Q2_0XX           |
 
-<img align="middle" src="/digital/assets/images/Lab7_subject5.png" width="1000" />  
+<img align="middle" src="../assets/images/Lab7_subject5.png" width="1000" />  
 <br/>
 <br/>
 
@@ -199,7 +199,7 @@ Double-click the second **Queue Task** node and set the following options:
   - `Queued` with **PIQ and EWT**.
   - `onError`, `OnTimeout`, `onInvalideData`, `taskFailed`, etc with the **Close Task**.
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\lab_7.9_connect_all_Q2.gif" width="1000" />  
+<img align="middle" src="../assets/new_images\Lab7_advemail\lab_7.9_connect_all_Q2.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -209,7 +209,7 @@ Double-click the second **Queue Task** node and set the following options:
 
 - Go to the agent desktop [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}. Sign in as the agent in "Team1_0XX" and make the agent **Available**. You should get only 1 email without the "Webex One" subject.
 
-<img align="middle" src="/digital/assets/images/Lab7_subject7.png" width="1000" />  
+<img align="middle" src="../assets/images/Lab7_subject7.png" width="1000" />  
 <br/>
 <br/>
 
@@ -219,7 +219,7 @@ Double-click the second **Queue Task** node and set the following options:
 
 > **Note:** You cannot change your team if you have active tasks, interactions, or incoming task requests. The Team option is disabled.
 
-<img align="middle" src="/digital/assets/images/Lab7_subject8.gif" width="1000" />  
+<img align="middle" src="../assets/images/Lab7_subject8.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -236,20 +236,20 @@ The steps below were **preconfigured** for you. They has to be done only once.
 
 - The smartsheet API key has been generated according to the [smartsheet guide](https://smartsheet.redoc.ly/#section/API-Basics/Raw-Token-Requests){:target="\_blank"}. Copy this API access token to a text file. You will be using this API key in your lab. Login to the smartsheet table to generate your API token
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\Lab_7.91_smartsheet_API_key.png" width="1000" />  
+<img align="middle" src="../assets/new_images\Lab7_advemail\Lab_7.91_smartsheet_API_key.png" width="1000" />  
 <br/>
 <br/>
 
 - The smartsheet grid was created. And Columns’ ID were collected through API (we will need it for the API request when we will be adding a new row).
 
-<img align="middle" src="/digital/assets/images/Lab7_smartsheet2.png" width="1000" />  
+<img align="middle" src="../assets/images/Lab7_smartsheet2.png" width="1000" />  
 <br/>
 <br/>
 
 - We checked that we are able to add a row through the postman acording to the [smartsheet documentation](https://smartsheet.redoc.ly/#operation/rows-addToSheet){:target="\_blank"}.
   It needs just for the verification, exactly the same we will be doing in the Email Workflow with the **HTTP Request** node.
 
-<img align="middle" src="/digital/assets/images/Lab7_smartsheet3.png" width="1000" />  
+<img align="middle" src="../assets/images/Lab7_smartsheet3.png" width="1000" />  
 <br/>
 <br/>
 
@@ -260,7 +260,7 @@ The steps below were **preconfigured** for you. They has to be done only once.
 - Click the **EDIT** button in the upper right corner.
 - Drag and drop the **HTTP Request** node from the Node Palette to the main canvas. Connect exit of the first **Queue Task** `Queued` with the **HTTP Request**
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\lab_7.92_add_http_node.gif" width="1000" />  
+<img align="middle" src="../assets/new_images\Lab7_advemail\lab_7.92_add_http_node.gif" width="1000" />  
 <br/>
 <br/>
 
@@ -298,13 +298,13 @@ The steps below were **preconfigured** for you. They has to be done only once.
   }
 ```
 
-<img align="middle" src="/digital/assets/images/Lab7_smartsheet5.png" width="1000" /> 
+<img align="middle" src="../assets/images/Lab7_smartsheet5.png" width="1000" /> 
 <br/>
 <br/>
 
 - Connect all exits of the **HTTP Request** with the middle **Email node** node.
 
-<img align="middle" src="/digital/assets/new_images\Lab7_advemail\Lab_7.93_cnct_http_to_email.png" width="1000" /> 
+<img align="middle" src="../assets/new_images\Lab7_advemail\Lab_7.93_cnct_http_to_email.png" width="1000" /> 
 <br/>
 <br/>
 
@@ -322,13 +322,13 @@ This section has the bonus category where we can check how you understand this t
 
 1. The Webex API token is generated for you.
 
-<img align="middle" src="/digital/assets/images/Lab7_webex1.png" width="1000" />   
+<img align="middle" src="../assets/images/Lab7_webex1.png" width="1000" />   
 <br/>
 <br/>
 
 2. Here is the example of the Postman request.
 
-<img align="middle" src="/digital/assets/images/Lab7_webex2.png" width="1000" /> 
+<img align="middle" src="../assets/images/Lab7_webex2.png" width="1000" /> 
 <br/>
 <br/>
 
@@ -351,7 +351,7 @@ This section has the bonus category where we can check how you understand this t
 }
 ```
 
-<img align="middle" src="/digital/assets/images/Lab7_webex3.png" width="1000" /> 
+<img align="middle" src="../assets/images/Lab7_webex3.png" width="1000" /> 
 <br/>
 <br/>
 
