@@ -351,7 +351,7 @@ Wait approximately 2 minutes to make sure your flow shows LIVE before proceeding
 <br/>
 <br/>
 
-- Go back to Webex Connect and click on `Service_0XX`` -> **Flows** >> then double click your email flow to open it in the flow editor.   
+- Go back to Webex Connect and click on `Service_0XX` -> **Flows** >> then double click your email flow to open it in the flow editor.   
 
 <img align="middle" src="/digital/assets/new_images/Lab2_Email/07.OpenInFlowEditor.gif" width="1000" />
 <br/>
@@ -424,7 +424,7 @@ Hit **REPLACE ALL**
 
 - The Email will be offered to the agent. Click **Accept** to handle the email. Click "Reply" or Reply All" to the email and hit send button.
 
-<img align="middle" src="/digital/assets/new_images\LAB2_email\Lab2__991_email_reply_in_agent_desktop_png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/Lab2__991_email_reply_in_agent_desktop_png" width="1000" />
 <br/>
 <br/>
 
