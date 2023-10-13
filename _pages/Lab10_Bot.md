@@ -40,7 +40,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 > Connect: **[https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}**\
 
 
-## Step 1. Create new QA Bot in Bot Builder
+## Step 1. Create new QA Bot in Bot Builder <a name="create-bot"></a>
 
 - Log on to Connect portal [https://labtenant.us.webexconnect.io/](https://labtenant.us.webexconnect.io/) and navigate to BOT Builder
 
@@ -54,7 +54,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 <br/>
 <br/>
 
-## Step 2. Import a Banking article into your Bot & preview responses
+## Step 2. Import a Banking article into your Bot & preview responses <a name="import-preview"></a>
 
 - Navigate to **Article** -> click the 3dots **(…)** icon -> **import from catalogue**. Scroll down thru the list of banking articles and choose `Card not working`.  
 
@@ -100,7 +100,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 <br/>
 
 
-## Step 3. Configure a new chat app in Connect for your Bot
+## Step 3. Configure a new chat app in Connect for your Bot <a name="new-chat-app"></a>
 
 - Navigate to the Connect portal [https://labtenant.us.webexconnect.io/](https://labtenant.us.webexconnect.io/) and click **Assets menu** >> **Apps menu**
 
@@ -129,7 +129,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 
 
-## Step 4. Assign the bot asset to your Chat EP in WxCC
+## Step 4. Assign the bot asset to your Chat EP in WxCC <a name="assign-to-EP"></a>
 
 - Open the WxCC admin portal and select the **Provisioning** >>  **Entry Point/Queues** >> **Entry Point** menu
 
@@ -142,7 +142,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 <br/>
 
 
-## Step 5. Configure widget website settings in Engage
+## Step 5. Configure widget website settings in Engage <a name="configure-engage"></a>
 
 - Cross-launch the engage portal from the Webex CC admin portal by clicking the **New Digital Channels** icon in the sidebar menu. 
 
@@ -179,7 +179,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 <br/>
 
 
-## Step 6. Download bot flow and upload to Connect
+## Step 6. Download bot flow and upload to Connect <a name="bot-flow-upload"></a>
 
 - Access the pre-built [GITHUB BOT FLOWS](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Sample/Bot%20Flows) and download the file named `LiveChatQAInboundFlow.workflow.zip`
 
@@ -198,7 +198,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 <br/>
 
 
-## Step 7. Configure the flow to use the QA bot & make it LIVE!
+## Step 7. Configure the flow to use the QA bot & make it LIVE! <a name="make-live"></a>
 
 In this step you will configure the flow’s custom variables and change fields in 4 different nodes so it will work with your QA bot. 
 
@@ -248,7 +248,7 @@ In this step you will configure the flow’s custom variables and change fields 
 <br/>
 <br/>
 
-## Step 8. Test the QA bot with an agent
+## Step 8. Test the QA bot with an agent <a name="test-QA-bot"></a>
 
 - Navigate to the agent Desktop URL at [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com) and login with your lab’s designated agent account.   Place your agent in Available state.  
 
@@ -277,7 +277,7 @@ In this step you will configure the flow’s custom variables and change fields 
 <br/>
 
 
-## Step 9. Customer:  request email of chat transcript
+## Step 9. Customer:  request email of chat transcript <a name="request-transcript"></a>
 
 - In the chat widget, click the **menu** icon in the upper left corner.  
 - Select **email transcript**.  Enter your email address and hit Send. 

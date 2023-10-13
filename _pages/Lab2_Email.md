@@ -353,19 +353,19 @@ Wait approximately 2 minutes to make sure your flow shows LIVE before proceeding
 
 - Go back to Webex Connect and click on `Service_0XX` -> **Flows** >> then double click your email flow to open it in the flow editor.   
 
-<img align="middle" src="/digital/assets/new_images/Lab2_Email/07.OpenInFlowEditor.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/07.OpenInFlowEditor.gif" width="1000" />
 <br/>
 <br/>
 
 - Click on the **bug icon** in the right side vertical menu. This will open the transaction debug logs for your email flow. When the logs load, you should see one transaction which will be the forwarding verification email from Google.   Click that transaction ID and then click the **decrypt logs** button.  Copy the data text from the `Configure Email Event` entry in the lower right pane
 
-<img align="middle" src="/digital/assets/new_images/Lab2_Email/08.OpenDecryptLogs.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/08.OpenDecryptLogs.gif" width="1000" />
 <br/>
 <br/>
 
 - Launch Notepad++ text editor on your lab computer.  Click Control+F to open the Find box.  Make sure that “regular expression” option is checked in the lower left
 
-<img align="middle" src="/digital/assets/new_images/Lab2_Email/09.Notepad.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/09.Notepad.png" width="1000" />
 <br/>
 <br/>
 
@@ -381,32 +381,32 @@ Find: `\\\\/`
 Replace with: `/`
 Hit **REPLACE ALL**
 
-<img align="middle" src="/digital/assets/new_images/Lab2_Email/10.NotepadFindAndReplace.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/10.NotepadFindAndReplace.gif" width="1000" />
 <br/>
 <br/>
 
 - Replacing these character strings should format the data so it is readable. Look for the link to confirm your forwarding request.  Paste the link into a browser
 
-<img align="middle" src="/digital/assets/new_images/Lab2_Email/11.BetterFormatTextFile.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/11.BetterFormatTextFile.png" width="1000" />
 <br/>
 <br/>
 
 - Click confirm button to confirm the forwarding. You will get a confirmation success message. 
 
 
-<img align="middle" src="/digital/assets/new_images/Lab2_Email/12.Confirmation.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/12.Confirmation.png" width="1000" />
 <br/>
 <br/>
 
 - Back in the settings of your Gmail account, forwarding should be reflected in the Forwarding and POP/IMAP tab.
 
-<img align="middle" src="/digital/assets/new_images/Lab2_Email/13.GmailScreenShot.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/13.GmailScreenShot.png" width="1000" />
 <br/>
 <br/>
 
 - Last forwarding step:  open your email flow and click the **Edit** button top right corner, then click the settings **gear** icon and click the **Custom Variables** tab inside the Flow Settings box.  Replace the **bizemailid** variable with your Gmail address.  Save the settings, then click **Make Live** to publish your flow
 
-<img align="middle" src="/digital/assets/new_images/Lab2_Email/14.bizemailid.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/14.bizemailid.png" width="1000" />
 <br/>
 <br/>
 
