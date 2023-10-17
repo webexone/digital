@@ -1,5 +1,5 @@
 ---
-title: 'Dip into NEW Digital Channels for Webex Contact Center'
+title: 'Dip into the NEW Digital Channels for Webex Contact Center'
 author: Dave Easton, Karthik Sundaram
 date: 2023-10-04
 layout: post

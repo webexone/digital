@@ -283,7 +283,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Scroll down and click the pencil icon under the Action menu
 
-<img align="middle" src="/digital/assets/images/Lab3_15.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/01.ActionMenu.png" width="1000" />
 <br/>
 <br/>
 
@@ -293,9 +293,9 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 <br/>
 <br/>
 
-- Enter the respective fields as per Screenshots below. Note we are going to insert the chat bubble into an online HTML editor for testing www.w3schools.com. The `Domain` field should contain the domain where you will insert the chat bubble.
+- Enter the respective fields as per Screenshots below. Note we are going to insert the chat bubble into an online HTML editor called `glitch.me`. The `Domain` field should contain the domain where you will insert the chat bubble.
 
-<img align="middle" src="/digital/assets/images/Lab3_17.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/02.glitchMe" width="1000" />
 <br/>
 <br/>
 
@@ -309,7 +309,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 <br/>
 <br/>
 
-- Explore and `Banned Customers` tab so you are familiar with the settings but we are not going to change the default settings for those at this point
+- Explore the `Banned Customers` tab so you are familiar with the settings but we are not going to change the default settings for those at this point
 
 ### 2. Verify that live chat widget loads
 
@@ -320,21 +320,38 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 <br/>
 <br/>
 
-- Open a new tab in your browser and navigate to [W3Schools Online HTML Editor](https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello){:target="\_blank"}.
+- Open a new tab in your browser and navigate to [Glitch.com](https://www.glitch.com){:target="\_blank"}.
 
-- Paste de chat bubble code just above the `</body>` tag
+- You must create an account at glitch.com in order to use their html test tool.
+You may login with an existing Facebook,Google or Github account, or use a magic link.  
 
-<img align="middle" src="/digital/assets/images/Lab3_24.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/03.GlitchLogin.png" width="1000" />
 <br/>
 <br/>
 
-- Click the Run button and the chat bubble should appear on the right side of the HTML online editor. Verify your settings if that does not happen and contact the lab proctor.
+-	Once you are logged in, click the **New Project** Button and select `glitch-hello-website` from the menu
 
-<img align="middle" src="/digital/assets/images/Lab3_25.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/04.GlitchNewProject.png" width="1000" />
 <br/>
 <br/>
 
-- Click on the chat bubble icon and it should show the previously configured livechat widget.
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/05.GlitchNewProject2.png" width="1000" />
+<br/>
+<br/>
+
+The name of your new glitch project will appear in the top left menu (in this example it is plump-tame-pumpkin).  Your website will be accessible from glitch.me with that suffix later if you need it.  Click on the `index.html` link under the Files menu 
+
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/06.GlitchIndex.png" width="1000" />
+<br/>
+<br/>
+
+-	Delete everything between the `<body>` and `</body>` takes in the index file. This is where you will paste your chat bubble code from Engage.  
+
+-	Click the **Preview** button in the lower browser bar and select `Preview in New Window`.  Verify that the Live Chat bubble pops up in the lower right corner and that your widget loads correctly. 
+
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/07.GlitchPreview.gif" width="1000" />
+<br/>
+<br/>
 
 [To the top of this lab](#table-of-contents)
 
@@ -344,15 +361,10 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Go to `Assets` > `Templates` and click the + icon besides Template Groups table header.
 
-<img align="middle" src="/digital/assets/images/Lab3_47.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/08.TemplateGroup.png" width="1000" />
 <br/>
 <br/>
 
-- In the Group Name field, enter `TemplateGroup_00X` as the template group name and click `Add`
-
-<img align="middle" src="/digital/assets/images/Lab3_48.jpg" width="600" />
-<br/>
-<br/>
 
 - You can choose to create a common template for all channels or create channel-specific templates. We will create a common template but also feel free to create other channel specific templates. Channel specific templates will only be shown to the agent when they receive a contact from that channel. Click `Add Template` button at the top right
 
@@ -362,29 +374,22 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Enter the template name in the `Template ID` field.
 
-- Click on the `Is Start Template` checkbox to mark this as a template available at the start of the conversation as an opening statement.
-
 - Enter the template text in the `Template Text` field. You can use variables by typing `@@` and also custom fields between chevron brackets `<>`. Variables will be autopopulated based on the active task and custom fields will be editable even if the template is locked. You can use the example on the screenshot or some other text.
 
-**NOTE:** The End template, Start template and Followup template may not exist in your version
 
 <img align="middle" src="/digital/assets/images/Lab3_50.jpg" width="1000" />
 <br/>
 <br/>
 
-- To share the template with other teams, choose the team from the Shared Across field. We only have one team created which is the Default Team but you can create templates that are only show to specific teams.
+- To exclude other teams from sharing this template, choose them from the `Teams excluded` drop down box.   For this lab, leave this field blank.
 
 - Click `SAVE CHANGES`
 
-- Add another common template that has the checkboxes `Is End Template` and `Is Follow-up Template` checked like in the following screenshots
-
-<img align="middle" src="/digital/assets/images/Lab3_51.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/09.UploadTemplate.png" width="1000" />
 <br/>
 <br/>
 
-<img align="middle" src="/digital/assets/images/Lab3_52.jpg" width="1000" />
-<br/>
-<br/>
+
 
 ## Step 6. Create/Upload Live Chat flow
 
@@ -430,9 +435,16 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Select the Custom Variables tab and set the following variable defaults:
 
-_domain_: Set it to `www.w3schools.com` (if this field is not present, move on)
+_domain_: Set it to `*.glitch.me` (if this field is not present, move on)
 
-_liveChatDomain_: Set it to `www.w3schools.com`
+_liveChatDomain_: Set it to `*.glitch.me*`
+
+_appID_: this will be the APP ID of your chat asset created earlier
+
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/10.FlowSettings.png" width="1000" />
+<br/>
+<br/>
+
 
 <img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_8_chat_flow_cust_var_1_png" width="1000" />
 <br/>
@@ -484,39 +496,29 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 <br/>
 <br/>
 
-- Go back to the tab where you opened [W3Schools Online HTML Editor](https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello){:target="\_blank"} and pasted the live chat widget code.
+- Go back to the tab where you opened `glitch.com` project and pasted the live chat widget code.
 
-- Click `Start Conversation`
+-	Click your chat bubble to initiate the chat. Fill out the form with your options. You will see `message successfully queued` when the message enters your chat queue.  
 
-<img align="middle" src="/digital/assets/images/Lab3_39.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/12.LiveChat.gif" width="1000" />
 <br/>
 <br/>
 
-- Fill in the form with customer options
+- The Live Chat will be offered to the agent. Click **Accept** to handle the Chat
 
-<img align="middle" src="/digital/assets/images/Lab3_40.jpg" width="1000" />
-<br/>
-<br/>
-
-- The Live Chat will be offered to the agent. Click **Accept** to handle the SMS.
-
-<img align="middle" src="/digital/assets/images/Lab3_41.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/13.LiveChatOffer.png" width="1000" />
 <br/>
 <br/>
 
 - The form submission will be presented to the customer
 
-<img align="middle" src="/digital/assets/images/Lab3_42.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/14.FormPresented.png" width="1000" />
 <br/>
 <br/>
 
 - Type a response and hit send button.
 
-<img align="middle" src="/digital/assets/images/Lab3_43.jpg" width="1000" />
-<br/>
-<br/>
-
-<img align="middle" src="/digital/assets/images/Lab3_44.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/15.TypeAResponse.png" width="1000" />
 <br/>
 <br/>
 
@@ -526,7 +528,7 @@ _liveChatDomain_: Set it to `www.w3schools.com`
 
 - End the contact
 
-<img align="middle" src="/digital/assets/images/Lab3_45.jpg" width="700" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/16.EndContact.png" width="1000" />
 <br/>
 <br/>
 

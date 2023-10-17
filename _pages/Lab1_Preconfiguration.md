@@ -77,13 +77,13 @@ Webex Connect is required to provide a valid access token for using various Webe
 <br/>
 <br/>
 
-- On the Manage Integrations page, scroll down to the **Node Authorizations** section. This section lists all the authorizations mapped to this integration. Click **Action** → **Add Authorization** associated with the **WxCC Authorisation**, where Auth Type is oauth2 and Status is Authorization Pending.
+- On the Manage Integrations page, scroll down to the **Node Authorizations** section. This section lists all the authorizations mapped to this integration. Click **Action** → **Add Authorization** associated with the **WxCC Authorization**, where Auth Type is oauth2 and Status is Authorization Pending.
 
 <img align="middle" src="/digital/assets/images/Lab1_ManageIntegration3.png" width="1000" />
 <br/>
 <br/>
 
-- Enter the **Authorization Name** (for example: **WxCC Authorisation**) and click **Authorize**. As the result the pop-up appears where you need to enter your Cisco admin email address and click **Sign in**.
+- Enter the **Authorization Name** (for example: **WxCC Authorization**) and click **Authorize**. As the result the pop-up appears where you need to enter your Cisco admin email address and click **Sign in**.
 
 <img align="middle" src="/digital/assets/new_images\LAB1_preconfig\LAB1_2_task_auth_png" width="1000" />
 <br/>
@@ -167,7 +167,7 @@ If an agent doesn’t answer a contact request, the contact request will return 
   <br/>
   <br/>
 
-- Modify the existing timers by putting the values from the tables below:
+- Modify the existing timers by using the values from the tables below:
 
 | **Channel** | **New Values** | **Limitations**  |
 | ----------- | -------------- | ---------------- |
