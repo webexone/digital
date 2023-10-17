@@ -51,7 +51,7 @@ In this Lab, we will go through the tasks that are required to configure a basic
 <br/>
 <br/>
 
-- Input a desired name in the **Webhook Name** field and apped the 0XX to the name to correspond to your 3-digit lab ID. Copy the **Webhook URL** for later use. Click **Save**
+- Input a desired name in the **Webhook Name** field and append the 0XX to the name to correspond to your 3-digit lab ID. Copy the **Webhook URL** for later use. Click **Save**
 
 <img align="middle" src="/digital/assets/new_images\Lab8_agentprod\Lab8.3_name_webhook.png" width="1000" />
 <br/>
@@ -83,7 +83,7 @@ In this Lab, we will go through the tasks that are required to configure a basic
 <br/>
 <br/>
 
-- Input a desired name in the **Name** field
+- Input a desired name in the **Name** field. Add your 3-digit LAB ID to the name
 
 - Select the **Method** as **POST**
 
@@ -239,7 +239,7 @@ In this Lab, we will go through the tasks that are required to configure a basic
 
 - Select the **Destination ID** as the customerEmail output variable of the trigger (Start) node. Enter desired **Subject** name for the email and in the **Message** field include the **getOTP** variable as shown in the image below.
 
-<img align="middle" src="/digital/assets/images/Lab8_27.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab8_agentprod/08.EmailNode.png" width="1000" />
 <br/>
 <br/>
 
@@ -301,15 +301,15 @@ Content-Type: application/json
 <br/>
 <br/>
 
-- Set the value of "webexConfigured" parameter to "true" and save the file as `Default Desktop Layout_0XX.json`.
+- Set the value of "webexConfigured" parameter to "true" and save the file as `Default Desktop Layout_0XX.json` where 0XX is your 3-digit LAB ID.
 
 <img align="middle" src="/digital/assets/images/Lab8_35.png" width="1000" /> 
 <br/>
 <br/>
   
-- **Upload** this updated file in Webex contact centre administration portal and click **Save**
+- **Upload** this updated file in Webex contact centre administration portal and click **Save**. Click in the Teams field and assign your `Team1_0XX` and `Team2_0XX` to the new layout file.  Click **Save**.  
 
-<img align="middle" src="/digital/assets/images/Lab8_36.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab8_agentprod/08.NewDesktopLayout.png" width="1000" />
 <br/>
 <br/>
 

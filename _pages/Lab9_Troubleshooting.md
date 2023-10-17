@@ -34,15 +34,11 @@ In this lab, we will go through the concepts and basics of flow debugging option
 
 ## 1. Verify decryption access for Webex Connect Owner
 
-> **Note**: Each Webex Connect tenant will have one owner added when the tenant is created. This owner will have decryption access by default. For any additional users added to the Connect tenant, please ensure that decryption access is enabled.
+> **Note**: Each Webex Connect tenant will have one owner added when the tenant is created. This owner will have decryption access by default. For the lab, the proctor will ensure that you have decryption access enabled for your lab admin account.
 
-- Login to Webex Connect and navigate to Settings > Team mates
-
-<img align="middle" src="/digital/assets/new_images\Lab9_flowdebug\lab9.1_decrypt.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab9_flowdebug/09.DecryptAccess.png" width="1000" />
 <br/>
 <br/>
-
-- Verify that decryption access is enabled for the owner of the Webex Connect tenant
 
 ## 2. Enabling Debug logs
 
