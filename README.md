@@ -15,7 +15,7 @@ Welcome to the Lab Guide Library. Here you will find the step-by-step guides on 
 
 | Lab # | Topic                    | URL                                                              |
 | ----- | ------------------------ | ---------------------------------------------------------------- |
-| ----- | Before you Begin         | [Lab Information](Lab_Info.md){:target="\_blank"}                |
+| ----- | Before you Begin         | [Lab Information](Lab0_Info.md){:target="\_blank"}                |
 | Lab 1 | Preconfiguration         | [Preconfiguration](Lab1_Preconfiguration.md){:target="\_blank"}  |
 | Lab 2 | Email Configuration      | [Email creation end to end](Lab2_Email.md){:target="\_blank"}    |
 | Lab 3 | Chat Configuration       | [Live Chat creation end to end](Lab3_Chat.md){:target="\_blank"} |
