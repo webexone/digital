@@ -93,7 +93,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 <br/>
 <br/>
 
-- Click on the **Sessions** menu to to see previous bot interactions and how user inputs matched with your Articles
+- Click on the **Sessions** menu to see previous bot interactions and how user inputs matched with your Articles
 
 <img align="middle" src="/digital/assets/new_images/Lab10_bot/7.QAbot_sessions.gif" width="1000" />
 <br/>
@@ -152,17 +152,26 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - Click the **Assets** Menu icon, then click the **pencil edit** icon by your `QA_bot_0XX` asset
 
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/700.PencilEdit.png" width="1000" />
+<br/>
+<br/>
+
 - Click the **Websites** Tab and the **ADD Website** button.
+
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/701.AddWebsite.gif" width="1000" />
+<br/>
+<br/>
 
 - The configuration here will be very similar to the `Livechat` asset you created in Lab 3.  In the **General** tab, make sure at a minimum you configure these two fields:  
 
    - General Tab >> Display Name >> use any name you would like here 
-   - General Tab >> Domain >> `www.w3schools.com`
+   - General Tab >> Domain >> `*.glitch.me*`
 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/96A.QAbot_website2.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/702.AddDomain.gif" width="1000" />
 <br/>
 <br/>
+
 
 - Click the **Appearance** tab.  Change the appearance of your chat widget however you would like.  Save your appearance changes and go to the Widget Visibility tab.  
 
@@ -205,13 +214,15 @@ In this step you will configure the flow’s custom variables and change fields 
 
 - Click the **EDIT** button at the top right corner of the screen, then click the **Gear icon** next to Edit to get to the flow’s settings.  Click the **Custom Variables** tab
 
+- Enable Descriptive Logs for 1000 minutes
+
 - In the **appID** field, paste the app ID of your chat asset that you saved back in step 3.
 
 - In the **liveChatDomain** field, type in the test website domain: `www.w3schools.com`
 
-- Click **SAVE**.  If prompted to fill in a field for **Descriptive Logs**, enter 1000 and click **save** again.  
+- Click **SAVE**.  
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/991.QAbot_CVs.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/703.FlowSettings.gif" width="1000" />
 <br/>
 <br/>
 
@@ -221,10 +232,10 @@ In this step you will configure the flow’s custom variables and change fields 
 
 - In the **QnA bot node**, go to the **BOT** field and select the QnA bot you built in step 1 of the lab. 
 
-- In the **Queue Task** node, go to the **Queue name** field and select the chat queue you built earlier in Livechat Lab 3.
+- In the **Queue Task** node, go to the **Queue name** field and select the chat queue you built earlier in Livechat Lab 3. Make sure to add your `Sales_0XX`` skill and set it to true. 
 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/94.QAbot_configFlow.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/704.QueueDetails.png" width="1000" />
 <br/>
 <br/>
 
@@ -254,25 +265,37 @@ In this step you will configure the flow’s custom variables and change fields 
 
 - On this step we will need our chat widget code from Engage >> Assets.  (See step 5 above.)  
 
-- Navigate to [www.w3schools.com](www.w3schools.com) scroll down to the HTML section and click **Try it yourself**
+- Navigate to the `glitch.com` project you created in LAB 3 and open your existing project
 
-- Paste your chat widget code from Engage in between the </body> tags, then click the **RUN** button.
+- In the `index.htm` file, paste your QABot chat widget code from Engage in between the `</body>` tags. Then select preview in new window from the browser’s bottom bar.
 
-   - Click your chat button in the lower right pane to launch the widget.
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/705.TestQABot.png" width="1000" />
+<br/>
+<br/>
 
-   - Fill in your name and email address, and wait for the bot to respond.
+
+   - In the new window, click your chat button in the lower right pane to launch the widget.
+
+   - Fill in the form and wait for the bot to respond with it’s opening greeting. In this case `Hi there`
+
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/706.HiThere.png" width="1000" />
+<br/>
+<br/>
 
    - Type  `my card is stuck in the ATM`  to see the bot answer with your new variant text. 
 
-   - Type `agent` to trigger the handoff from the bot to a human agent.  You will see a “Message Queued” response from the bot.   
+   - Type `agent` to trigger the handoff from the bot to a human agent.  You will see a `Message Queued` response from the bot.   
+
+<img align="middle" src="../assets/new_images/Lab10_bot/706.NeedAgent.gif" width="1000" />
+<br/>
+<br/>
+
 
    - Switch back to your contact center agent and answer the incoming chat in desktop.  
    
    - Respond back and forth with your customer, then end the chat and wrap it up. 
 
-- **NOTE:** This video clip is long but includes all the steps above needed to test your QA bot
-
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/994.QAbot_TEST.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/708.WrapUpChat.gif" width="1000" />
 <br/>
 <br/>
 
