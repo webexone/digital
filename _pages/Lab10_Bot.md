@@ -286,7 +286,7 @@ In this step you will configure the flow’s custom variables and change fields 
 
    - Type `agent` to trigger the handoff from the bot to a human agent.  You will see a `Message Queued` response from the bot.   
 
-<img align="middle" src="../assets/new_images/Lab10_bot/706.NeedAgent.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/706.NeedAgent.gif" width="1000" />
 <br/>
 <br/>
 
