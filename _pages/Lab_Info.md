@@ -28,7 +28,8 @@ These labs are specially designed for this Webex ONE session. The  purpose of th
 | Webex CC Control Hub | [https://admin.webex.com](https://admin.webex.com){:target="\_blank"}                                   | wxcclabs+admin_ID<0XX>@gmail.com |
 | Management Portal    | [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"} | wxcclabs+admin_ID<0XX>@gmail.com |
 | Webex Connect        | [https://labtenant.us.webexconnect.io/](https://labtenant.us.webexconnect.io){:target="\_blank"}                                                                   | wxcclabs+admin_ID<0XX>@gmail.com |
-| Agent Desktop        | [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}             | wxcclabs+admin_ID<0XX>@gmail.com |
+| Agent Desktop        | [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}             | wxcclabs+agent_ID<0XX>@gmail.com |
+| Supervisor Desktop        | [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}             | wxcclabs+supvr_ID<0XX>@gmail.com |
 
 > **NOTE:**  
 > A lab ID will be assigned to you at the beginning of the lab. It will be in the form of <ID0XX> where 0XX is your 3-digit lab number. This ID number will be part of all admin and agent usernames used in this lab. A unique password will also be assigned to you for this account. All accounts used in this lab will use SSO
@@ -41,7 +42,6 @@ These labs are specially designed for this Webex ONE session. The  purpose of th
 
 3. You have to use the admin account (with Administrator privileges) for access to Control Hub and Administration portal.
 
-4. Please follow the labs in the same order as they are provided.
 
 ### Users
 
@@ -49,15 +49,15 @@ The users have the following preconfiguration
 
 | **User Role** | **User email**                      |
 | ------------- | ----------------------------------- |
-| Agent         | wxcclabs+agent\_ ID<0XX>@@gmail.com |
-| Supervisor    | wxcclabs+supvr\_ ID<0XX>@@gmail.com |
+| Agent         | wxcclabs+agent\_ ID<0XX>@gmail.com |
+| Supervisor    | wxcclabs+supvr\_ ID<0XX>@gmail.com |
 
 ### User Settings
 
 | **Entity**          | **Name**  |
 | ------------------- | --------- |
-| Multimedia Profiles | MMP       |
-| Site                | Site      |
+| Multimedia Profiles | MMP_0XX       |
+| Site                | Site_0XX      |
 | Team1               | Team1_0XX |
 | Team2               | Team2_0XX |
 
