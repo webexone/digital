@@ -1,3 +1,12 @@
+---
+title: 'Email link helper'
+author: Dave Easton, Karthik Sundaram
+date: 2023-10-04
+layout: post
+---
+
+# Prepare Email link for Gmail integration with Webex CC
+
 <!DOCTYPE html>
 
 <body>
