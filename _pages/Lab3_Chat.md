@@ -30,10 +30,8 @@ layout: post
     - [4. Edit Queue Task node](#4-edit-queue-task-node)
   - [Step 7. Verification - start live chat and accept the request](#step-7-verification---start-live-chat-and-accept-the-request)
   - [Step 8. Search and view conversation transcripts](#step-8-search-and-view-conversation-transcripts)
-  - [Step 9. Challenge Lab - Enhance flow](#step-9-challenge-lab---enhance-flow)
-    - [1. Add Branch to handle Dropdown form field](#1-add-branch-to-handle-dropdown-form-field)
-  - [Back to top](#back-to-top)
-    - [Congratulations, you have completed this section!](#congratulations-you-have-completed-this-section)
+  
+  
 
 # Introduction
 

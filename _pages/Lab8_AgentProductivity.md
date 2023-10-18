@@ -19,8 +19,8 @@ layout: post
   - [Step 5. OTP Flow configuration](#step-5-otp-flow-configuration)
   - [Step 6. Agent desktop layout update](#step-6-agent-desktop-layout-update)
   - [Step 7. OTP scenario verification](#step-7-otp-scenario-verification)
-  - [Back to top](#back-to-top)
-    - [Congratulations, you have completed this section!](#congratulations-you-have-completed-this-section)
+ 
+  
 
 # Introduction
 

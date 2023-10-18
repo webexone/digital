@@ -18,7 +18,7 @@ layout: post
   - [4. Flow Analytics](#4-flow-analytics)
   - [5. Share Flow Settings](#5-share-flow-settings)
   - [Back to top](#back-to-top)
-    - [Congratulations, you have completed this section!](#congratulations-you-have-completed-this-section)
+  
 
 # Introduction
 

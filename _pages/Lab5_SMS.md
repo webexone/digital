@@ -19,8 +19,7 @@ layout: post
     - [1. Create Entry Point in Managment Portal](#1-create-entry-point-in-managment-portal)
   - [Step 4. Create/Upload SMS flow](#step-4-createupload-sms-flow)
   - [Verification - send SMS and accept the request](#verification---send-sms-and-accept-the-request)
-  - [Back to top](#back-to-top)
-    - [Congratulations, you have completed this section!](#congratulations-you-have-completed-this-section)
+ 
 
 # Introduction
 
