@@ -313,7 +313,7 @@ The steps below were **preconfigured** for you. They has to be done only once.
 
 - After 1 minute check the smartsheet table. The row with the email details has to appear: [https://app.smartsheet.com/sheets/mGxggWGV8qcxmxvgcvRmfjxqfhcCFwGg4RHmQP71?view=grid](https://app.smartsheet.com/sheets/mGxggWGV8qcxmxvgcvRmfjxqfhcCFwGg4RHmQP71?view=grid){:target="\_blank"}
 
-## BONUS TASK - Integration with Webex Teams (Alarm notification) - to be tried outside of the lab
+## BONUS TASK - Integration with Webex Teams (Alarm notification)
 
 The idea is to show that you can integrate the Flow with Webex Teams and this can be used as the notifications for supervisors based on the specific criteria.
 This section has the bonus category where we can check how you understand this topic. Here we give you the task without a step-by-step explanation the result will be the message from the Webex bot in our Cisco Live space.

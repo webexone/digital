@@ -17,8 +17,7 @@ layout: post
   - [Step 3. Whatsapp Entry Point and Queue creation](#step-3-whatsapp-entry-point-and-queue-creation)
   - [Step 4. Create/Upload Whatsapp flow](#step-4-createupload-whatsapp-flow)
   - [Verification - send Whatsapp message and accept the request](#verification---send-whatsapp-message-and-accept-the-request)
-  - [Back to top](#back-to-top)
-    - [Congratulations, you have completed this section!](#congratulations-you-have-completed-this-section)
+ 
 
 # Introduction
 

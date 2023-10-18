@@ -5,18 +5,21 @@ date: 2023-10-11
 layout: post
 ---
 
-# Table of Contents
-
 - [Table of Contents](#table-of-contents)
-- [Step 1. Create new QA Bot in Bot Builder](#create-bot)
-- [Step 2. Import a Banking article into your Bot & preview responses](#import-preview)
-- [Step 3. Configure a new chat app in Connect for your Bot](#new-chat-app)
-- [Step 4. Assign the bot asset to your Chat EP in WxCC](#assign-to-EP)
-- [Step 5. Configure widget website settings in Engage](#configure-engage)
-- [Step 6. Download bot flow and upload to Connect](#bot-flow-upload)
-- [Step 7. Configure the flow to use the QA bot & make it LIVE!](#make-live)
-- [Step 8. Test the QA bot with an agent](#test-QA-bot)
-- [Step 9. Customer:  request email of chat transcript](#request-transcript)
+      + [Introduction](#introduction)
+      + [Prerequisite](#prerequisite)
+      + [Quick Links](#quick-links)
+   * [Step 1. Create new QA Bot in Bot Builder <a name="create-bot"></a>](#step-1-create-new-qa-bot-in-bot-builder)
+   * [Step 2. Import a Banking article into your Bot & preview responses <a name="import-preview"></a>](#step-2-import-a-banking-article-into-your-bot-preview-responses)
+   * [Step 3. Configure a new chat app in Connect for your Bot <a name="new-chat-app"></a>](#step-3-configure-a-new-chat-app-in-connect-for-your-bot)
+   * [Step 4. Assign the bot asset to your Chat EP in WxCC <a name="assign-to-EP"></a>](#step-4-assign-the-bot-asset-to-your-chat-ep-in-wxcc)
+   * [Step 5. Configure widget website settings in Engage <a name="configure-engage"></a>](#step-5-configure-widget-website-settings-in-engage)
+   * [Step 6. Download bot flow and upload to Connect <a name="bot-flow-upload"></a>](#step-6-download-bot-flow-and-upload-to-connect)
+   * [Step 7. Configure the flow to use the QA bot & make it LIVE! <a name="make-live"></a>](#step-7-configure-the-flow-to-use-the-qa-bot-make-it-live)
+   * [Step 8. Test the QA bot with an agent <a name="test-QA-bot"></a>](#step-8-test-the-qa-bot-with-an-agent)
+   * [Step 9. Customer:  request email of chat transcript <a name="request-transcript"></a>](#step-9-customer-request-email-of-chat-transcript)
+   * [Back to the top](#back-to-the-top)
+      + [Congratulations, you have completed this section!](#congratulations-you-have-completed-this-section)
 
 
 ### Introduction

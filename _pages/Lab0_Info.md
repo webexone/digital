@@ -29,7 +29,6 @@ These labs are specially designed for this Webex ONE session. The  purpose of th
 | Management Portal    | [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"} | wxcclabs+admin_ID<0XX>@gmail.com |
 | Webex Connect        | [https://labtenant.us.webexconnect.io/](https://labtenant.us.webexconnect.io){:target="\_blank"}                                                                   | wxcclabs+admin_ID<0XX>@gmail.com |
 | Agent Desktop        | [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}             | wxcclabs+agent_ID<0XX>@gmail.com |
-| Supervisor Desktop        | [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}             | wxcclabs+supvr_ID<0XX>@gmail.com |
 
 > **NOTE:**  
 > A lab ID will be assigned to you at the beginning of the lab. It will be in the form of <ID0XX> where 0XX is your 3-digit lab number. This ID number will be part of all admin and agent usernames used in this lab. A unique password will also be assigned to you for this account. All accounts used in this lab will use SSO
@@ -38,9 +37,11 @@ These labs are specially designed for this Webex ONE session. The  purpose of th
 
 1. You will need to an email address to use with SSO. We recommend you create gmail accounts in the format suggested for your lab 
 
-2. Please confirm that you can login to the Webex CC Admin portal by using the links above.
+2. Please ensure that you can login to the Webex CC Management portal by using the links above.
 
-3. You have to use the admin account (with Administrator privileges) for access to Control Hub and Administration portal.
+3. You have to use the admin account (with Administrator privileges) for access to Control Hub and Webex Connect.
+
+4. Login to the Agent Desktop will be at a later stage 
 
 
 ### Users
@@ -50,7 +51,7 @@ The users have the following preconfiguration
 | **User Role** | **User email**                      |
 | ------------- | ----------------------------------- |
 | Agent         | wxcclabs+agent\_ ID<0XX>@gmail.com |
-| Supervisor    | wxcclabs+supvr\_ ID<0XX>@gmail.com |
+| Supervisor (won't use in this lab)   | wxcclabs+supvr\_ ID<0XX>@gmail.com |
 
 ### User Settings
 

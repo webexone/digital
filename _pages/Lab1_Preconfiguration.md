@@ -34,8 +34,8 @@ Once you complete this preconfiguration lab, you are free to move on to either L
 
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com){:target="\_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
-> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**\
 > Webex Connect: **[https://labtenant.us.webexconnect.io/](https://labtenant.us.webexconnect.io/){:target="\_blank"}**\
+> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**\
 
 # Lab Section
 
@@ -46,6 +46,8 @@ Once you complete this preconfiguration lab, you are free to move on to either L
 <br/>
 
 ## Step 1. Node Authorization for Webex CC Task and Engage nodes - *This step has been preconfigured for you*
+
+Webex Connect: **[https://labtenant.us.webexconnect.io/](https://labtenant.us.webexconnect.io/){:target="\_blank"}**\
 
 Webex Connect is required to provide a valid access token for using various Webex Contact Center and Webex Engage APIs. The access token is generated using the authorization details configured within the ‘Node Runtime Authorization’ field that Webex Contact Center users are required to provide during flow configuration.
 
@@ -176,7 +178,7 @@ If an agent doesn’t answer a contact request, the contact request will return 
 | Email       | 90             | 1 - 6000 seconds |
 | Social      | 60             | 1 - 6000 seconds |
 
-## Step 4. Create a new Multimedia profile and a new site - *This step has been preconfigured for you*
+## Step 4. Create a new Multimedia profile and a new site 
 
 - Login to Managment Portal by accessing [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}
 

@@ -11,7 +11,7 @@ layout: post
 - [Step 2. Create Email Asset and Register to Webex CC](#step-2-create-email-asset-and-register-to-webexcc)
 - [Step 3. Email Entry Point and Queue creation](#step-3-email-entry-point-and-queue-creation)
 - [Step 4. Create/Upload Email flow & verify Gmail account forwarding](#step-4-createupload-email-flow)
-- [Verification: Send an Email and accept the task](#verification-send-an-email-and-accept-the-task)
+- [Step 5. Verification: Send an Email and accept the task](#verification-send-an-email-and-accept-the-task)
 
 # Introduction
 
@@ -167,7 +167,7 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
-## Step 2. Create an Email Asset and Register to WebexCC
+## Step 2. Create Email Asset and Register to Webex CC
 
 ### 1. Create Email Asset
 
@@ -217,7 +217,7 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
-## Step 2. Email Entry Point and Queue creation
+## Step 3. Email Entry Point and Queue creation
 
 ### 1. Create Entry Point in Management Portal
 
@@ -280,7 +280,8 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
-## Step 3. Create/Upload Email flow & verify forwarding on the Gmail account
+## Step 4. Create/Upload Email flow & verify Gmail account forwarding
+
 
 - Download the email flow from the [GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows)
 
@@ -331,7 +332,7 @@ Wait approximately 2 minutes to make sure your flow shows LIVE before proceeding
 <br/>
 
 
-### 4. Add forwarding Address Gmail Account and confirm the forwarding with URL from your email debug logs
+### 1. Add forwarding Address Gmail Account and confirm the forwarding with URL from your email debug logs
 
 - Using the the forwarding address from your email asset in the previous step , go back to your gmail account.
 
@@ -426,7 +427,7 @@ Hit **REPLACE ALL**
 
 [To the top of this lab](#table-of-contents)
 
-## Verification: Send an Email and accept the task
+## Step 5. Verification: Send an Email and accept the task
 
 - Go to personal email account and send an email to the support email address that was initially configured in the Email Asset.
 

@@ -23,8 +23,7 @@ layout: post
     - [2. Start node and Custom Variables](#2-start-node-and-custom-variables)
     - [3. Edit Queue Task node](#3-edit-queue-task-node)
   - [Step 5. Verification - start Facebook Chat and accept the request](#step-5-verification---start-facebook-chat-and-accept-the-request)
-  - [Back to top](#back-to-top)
-    - [Congratulations, you have completed this section!](#congratulations-you-have-completed-this-section)
+  
 
 # Introduction
 
