@@ -37,7 +37,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**\
 > Workflows: **[GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows){:target="\_blank"}**\
-> Connect: **[https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}**\
+> Connect: **[https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}**
 
 
 ## Step 1. Create new QA Bot in Bot Builder <a name="create-bot"></a>
@@ -158,7 +158,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
 
 - Click the **Websites** Tab and the **ADD Website** button.
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/701.AddWebsite.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/1. QAbot_addwebsite.gif" width="1000" />
 <br/>
 <br/>
 
@@ -168,7 +168,7 @@ This lab is designed for you to build a small banking Question & Answer bot.  In
    - General Tab >> Domain >> `*.glitch.me*`
 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/702.AddDomain.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/2. QAbot_addGlitch.gif" width="1000" />
 <br/>
 <br/>
 
@@ -222,7 +222,7 @@ In this step you will configure the flow’s custom variables and change fields 
 
 - Click **SAVE**.  
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/703.FlowSettings.gif" width="1000" />
+<img align="middle" src="/assets/new_images/Lab10_bot/3. QAbot_custVar.gif" width="1000" />
 <br/>
 <br/>
 
@@ -286,7 +286,7 @@ In this step you will configure the flow’s custom variables and change fields 
 
    - Type `agent` to trigger the handoff from the bot to a human agent.  You will see a `Message Queued` response from the bot.   
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/706.NeedAgent.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/4.QAbot_ask4agent.gif" width="1000" />
 <br/>
 <br/>
 
@@ -295,7 +295,7 @@ In this step you will configure the flow’s custom variables and change fields 
    
    - Respond back and forth with your customer, then end the chat and wrap it up. 
 
-<img align="middle" src="/digital/assets/new_images/Lab10_bot/708.WrapUpChat.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab10_bot/5.QAbot_converse.gif" width="1000" />
 <br/>
 <br/>
 
