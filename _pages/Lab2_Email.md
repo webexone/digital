@@ -74,9 +74,9 @@ Starting May 30, 2022 the **Less Secure Apps** feature was disabled on all Googl
 
 | **User email**                                                       |
 | -------------------------------------------------------------------- |
-| Use your own existing gmail account or create a new one for this lab |
+| **Use your own existing gmail account or create a new one for this lab.** You can create a new gmail address and not provide a cellphone number or recovery email address. It takes only a minute to create one. |
 
-- Login to the Gmail account. If this is your firtst login, select **Turn off smart features**. To turn off Smart Features on an existing account, click the gear icon in top right corner and scroll down in the General tab and uncheck the box next to Smart Features and personalization.   
+- Login to the Gmail account. If this is your firtst login, select **Turn off smart features**. To turn off Smart Features on an existing account, click the gear icon in top right corner (Optionally, click `See all Settings`) and scroll down in the General tab and uncheck the box next to **Smart Features and personalization**
 
 <img align="middle" src="/digital/assets/new_images/LAB2_email/01.TurnOffSmartFeatures.png" width="1000" />
 <br/>
@@ -147,7 +147,7 @@ We need to activate the API if we want to use a Gmail accont for outbound email.
 <br/>
 <br/>
 
-- On the next screen, you need to provide Auth 2.0 Scopes for Google APIs. Click the **Add Or Remove Scopes** button and add https://www.googleapis.com/auth/gmail.send to the list of scopes since we only want to send emails from Gmail and not read any user data. Click **SAVE AND CONTINUE**.
+- On the next screen, you need to provide Auth 2.0 Scopes for Google APIs. Click the **Add Or Remove Scopes** button and add **https://www.googleapis.com/auth/gmail.send** to the list of scopes since we only want to send emails from Gmail and not read any user data. Click **SAVE AND CONTINUE**.
 
 <img align="middle" src="/digital/assets/new_images\LAB2_email\Lab2_9_google_console_scopes_png" width="1000" />
 <br/>
@@ -189,7 +189,7 @@ Now create a new client ID that will be used to identify your application to Goo
 
 ### 1. Create Email Asset
 
-- As an admin, login to Webex Connect UI using the provided URL https://labtenant.us.webexconnect.io/
+- As an admin, login to Webex Connect UI using the provided URL [https://labtenant.us.webexconnect.io/](https://labtenant.us.webexconnect.io/)
 
 - Select **Assets** -> **Apps** -> **CONFIGURE NEW APP** -> **Email**.
 
@@ -235,9 +235,13 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
+**NOTE:** If clicking on **Register to Engage** doesn't do anything, please contact your lab proctor to perform this step for you
+
 ## Step 3. Email Entry Point and Queue creation
 
 ### 1. Create Entry Point in Management Portal
+
+Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
 
 - Click on **_Provisioning_** and select **_Entry Points/Queues_** > **_Entry Point_**.
 
@@ -301,6 +305,12 @@ Now create a new client ID that will be used to identify your application to Goo
 ## Step 4. Create/Upload Email flow & verify Gmail account forwarding
 
 
+- Go to **Assets** -> **Apps** -> Locate your Email asset `EmailAsset0XX` and copy the **Forwarding Address** to use in a subsequent step
+
+<img align="middle" src="/digital/assets/new_images\LAB2_email/95_copy_bizemailid.jpg" width="1000" />
+<br/>
+<br/>
+
 - Download the email flow from the [GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows)
 
 - Navigate to **webex connect flows -> 3.0 -> template -> media specific workflows -> email inbound flow.workflow.zip**, select the zip file and click download.
@@ -319,11 +329,12 @@ Now create a new client ID that will be used to identify your application to Goo
 <br/>
 <br/>
 
-- Click **Save** and in the created workflow find the **Queue Task**, click twice, select the **QUEUE NAME** as **Email_Q_0XX** and click on **SAVE**.
+- Click **Save** and in the created workflow find the **Queue Task**, click twice, select the **QUEUE NAME** as **Email_Q1_0XX** and click on **SAVE**.
 
 <img align="middle" src="/digital/assets/new_images\LAB2_email\Lab2_99_email_Qtask_node_png" width="1000" />
 <br/>
 <br/>
+
 
 - Click **Settings** on top right corner and switch to **Custom variables** tab. Here in the **bizemailid** row, update the default value with the forwarding address you copied from your email asset earlier in step 2. Click SAVE Click **SAVE**.
 
@@ -337,7 +348,7 @@ When prompted, turn on descriptive logs and enter `1000`` in the **minutes** fie
 <br/>
 <br/>
 
-- Finally click on Make Live on top right corner -> Select the email Application/Asset that we have created and click Make Live.
+- Finally click on Make Live on top right corner -> Select the email Application/Asset (`EmailAsset0XX`) that we have created and click Make Live.
 
 <img align="middle" src="/digital/assets/images/Lab2_WF4.png" width="1000" />
 <br/>
@@ -370,19 +381,19 @@ Wait approximately 2 minutes to make sure your flow shows LIVE before proceeding
 <br/>
 <br/>
 
-Go back to Webex Connect and click on the **Debug Console** Menu, select `Query Historical Logs` – `Channel = Email` – `Date Range = Today/Last Hour`.  Click the **Search** button.  
+In order to fetch the confirmation email, go back to Webex Connect and click on the **Debug Console** Menu on the left pane, select `Query Historical Logs` – `Channel = Email` – `Date Range = Today/Last Hour`.  Click the **Search** button.  
 
 <img align="middle" src="/digital/assets/new_images/LAB2_email/DebugConsole3.png" width="1000" />
 <br/>
 <br/>
 
-- You should only have 1 transaction in your logs at this point.  Click the **Message ID** Link 
+- You should only have 1 transaction in your logs at this point.  Click the **Message ID** Link for `Event Handled`
 
 <img align="middle" src="/digital/assets/new_images/LAB2_email/OneTransaction.png" width="1000" />
 <br/>
 <br/>
 
-- Click the **decrypt logs** button, then click the **Trace Details** link for that transaction. Click the **copy** button next to the Date entry in the lower right pane.  
+- Click the **decrypt logs** button, then click the **Trace Details** link for that transaction. Click the **copy** button next to the Data entry in the lower right pane.  
 
 <img align="middle" src="/digital/assets/new_images/LAB2_email/email_copy debug.gif" width="1000" />
 <br/>
@@ -417,7 +428,7 @@ Go back to Webex Connect and click on the **Debug Console** Menu, select `Query 
 <br/>
 <br/>
 
-- Last forwarding step: open your email flow and click the **Edit** button top right corner, then click the settings **gear icon** and click the `Custom Variables`` tab inside the Flow Settings box. Replace the **bizemailid** variable with your Gmail address. Save the settings, then click **Make Live** to publish your flow.
+- Last forwarding step: open your email flow and click the **Edit** button top right corner, then click the settings **gear icon** and click the `Custom Variables`` tab inside the Flow Settings box. Replace the **bizemailid** variable with **your Gmail address.** Save the settings, then click **Make Live** to publish your flow.
 
 <img align="middle" src="/digital/assets/new_images/LAB2_email/bizemailid.png" width="1000" />
 <br/>
@@ -448,10 +459,10 @@ Go back to Webex Connect and click on the **Debug Console** Menu, select `Query 
 ### Congratulations, you have completed this section!
 
 <script>
-function mainPage() {window.location.href = "Home";}
+function mainPage() {window.location.href = "/digital/_pages/Home.md";}
 function nextLab() 
  {
- window.location.href = "Lab3_Chat";
+ window.location.href = "/digital/_pages/Lab3_Chat";
  }
 </script>
 
