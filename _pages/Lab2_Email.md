@@ -370,12 +370,6 @@ Wait approximately 2 minutes to make sure your flow shows LIVE before proceeding
 <br/>
 <br/>
 
-- Go back to Webex Connect and click on `Service_0XX` -> **Flows** >> then double click your email flow to open it in the flow editor.   
-
-<img align="middle" src="/digital/assets/new_images/LAB2_email/07.OpenInFlowEditor.gif" width="1000" />
-<br/>
-<br/>
-
 Go back to Webex Connect and click on the **Debug Console** Menu, select `Query Historical Logs` – `Channel = Email` – `Date Range = Today/Last Hour`.  Click the **Search** button.  
 
 <img align="middle" src="/digital/assets/new_images/LAB2_email/DebugConsole3.png" width="1000" />
