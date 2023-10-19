@@ -282,7 +282,7 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
 - Make sure that the user are now shown with the **_Contact Center Enabled_** flag as `Yes` and **_Status_** as `Active`.
 
-<img align="middle" src="/desktop/assets/images/Lab1_User.jpg" width="1000" />
+<img align="middle" src="/digital/assets/images/Lab1_User.jpg" width="1000" />
 <br/>
 <br/>
 
