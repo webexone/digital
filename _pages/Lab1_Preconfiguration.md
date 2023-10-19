@@ -18,12 +18,11 @@ Once you complete this preconfiguration lab, you are free to move on to either L
 # Table of Contents
 
 - [Step 1. Node Authorization for Webex CC Task and Engage nodes](#Node-authorization)
-- [Step 2. Download and upload CA flows in Connect](#Update-CA-nodes-in-connect)
-- [Step 3. Setup RONA Timers](#RONA-Timers)
-- [Step 4. Setup Multimedia profile](#Multimedia-profile)
-- [Step 5. Add a service for your flows](#Add-a-service)
-- [Step 6. Setup Agents & teams in portal](#Agents-teams)
-- [Step 7. Verify access to the agent desktop](#Agent-desktop-access)
+- [Step 2. Setup RONA Timers](#RONA-Timers)
+- [Step 3. Setup Multimedia profile](#Multimedia-profile)
+- [Step 4. Add a service for your flows](#Add-a-service)
+- [Step 5. Setup Agents & teams in portal](#Agents-teams)
+- [Step 6. Verify access to the agent desktop](#Agent-desktop-access)
 
 ### Prerequisites
 
@@ -153,7 +152,7 @@ Every tenant must include CA flows. CA flows can be imported from the template f
 
 12. **!!!** Go back and repeate steps 7 - 11 for **Task Routed flow** and **Task Modified Flow**. Select the corresponding names.
 
-## Step 3. Setup RONA timers - *This step has been preconfigured for you*
+## Step 2. Setup RONA timers - *This step has been preconfigured for you*
 
 If an agent doesn’t answer a contact request, the contact request will return to the queue and the agent state will change to **Redirection on No Answer (RONA)**. In this task, you will play with the feature that allows administrators to override the default RONA timeout values at the tenant level for every channel type to suit the business needs of the organization. The available channels are:
 
@@ -178,7 +177,7 @@ If an agent doesn’t answer a contact request, the contact request will return 
 | Email       | 90             | 1 - 6000 seconds |
 | Social      | 60             | 1 - 6000 seconds |
 
-## Step 4. Create a new Multimedia profile and a new site 
+## Step 3. Create a new Multimedia profile and a new site 
 
 - Login to Managment Portal by accessing [https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}
 
@@ -196,7 +195,7 @@ If an agent doesn’t answer a contact request, the contact request will return 
 <br/>
 <br/>
 
-### Step 4.1. Create a new site
+### Step 3.1. Create a new site
 
 - Navigate to **_Provisioning_** and select **_Site_**
 
@@ -208,7 +207,7 @@ If an agent doesn’t answer a contact request, the contact request will return 
 <br/>
 <br/>
 
-## Step 5. Create a new service for your Digital channel flows
+## Step 4. Create a new service for your Digital channel flows
 
 Navigate to Webex Connect: [https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}
 
@@ -218,9 +217,11 @@ Navigate to Webex Connect: [https://labtenant.us.webexconnect.io](https://labten
 <br/>
 <br/>
 
-## Step 6. Setup agents in Portal (Agents, Team)
+## Step 5. Setup agents in Portal (Agents, Team)
 
-This step shows how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to the Contact Center user.
+ Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
+
+This step shows how to access the admin portal and navigate the different configuration menus to create a Site, Team, and Multimedia Profile that will be assigned to the Contact Center user. The agent has been created for you
 
 ### Users
 
@@ -229,11 +230,12 @@ The users have the following preconfiguration
 | **User Role** | **User email**                     |
 | ------------- | ---------------------------------- |
 | Agent         | wxcclabs+agent\_ ID<0XX>@gmail.com |
-| Supervisor    | wxcclabs+supvr\_ ID<0XX>@gmail.com |
 
 > **Note:** Your admin account password was given to you personally. <0XX> is your 3 digit lab number. For Example: ```wxcclabs+agent_ID070@gmail.com```
 
 ### User Settings
+
+We will be associating the below configurations you created with the agent
 
 | **Entity**          | **Name**  |
 | ------------------- | --------- |
@@ -242,7 +244,7 @@ The users have the following preconfiguration
 | Team1               | Team1_0XX |
 | Team2               | Team2_0XX |
 
-### Step 6.1. Create new Teams
+### Step 5.1. Create new Teams
 
 - Navigate to **_Provisioning_** and select Team.
 
@@ -250,17 +252,17 @@ The users have the following preconfiguration
 
 - Select **_Site_** from the Site drop-down.
 
-- Input Name as `Team1_0XX`
+- Input Name as `Team1_0XX` where `0XX` is the 3-digit LAB ID
 
 - Use the default Type `Agent Based`.
 
-- Select MMP in the **_Multimedia Profile_** drop-down.
+- Select `MMP_0XX` in the **_Multimedia Profile_** drop-down where `0XX` is your 3-digit LAB ID
 
 - Leave `Global Layout` in the Desktop Layout drop-down as the default value and hit Save.
 
 Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
-### Step 6.2. User Configuration
+### Step 5.2. User Configuration
 
 - Click on **_Provisioning_** and select **_Users_**.
 
@@ -274,27 +276,25 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
 - Click the **_Teams_** area and select `Team1_0XX` and `Team2_0XX`.
 
-- Select `Agent Profile` in the **_Agent Profile_** drop-down list.
+- Select `Agent Profile` in the **_Desktop Profile_** drop-down list. 
 
 - Select `MMP_0XX` in the **_Multimedia Profile_** drop-down and hit **_Save_**.
 
 - Make sure that the user are now shown with the **_Contact Center Enabled_** flag as `Yes` and **_Status_** as `Active`.
 
-<img align="middle" src="/digital/assets/images/Lab1_User.png" width="1000" />
+<img align="middle" src="/desktop/assets/images/Lab1_User.jpg" width="1000" />
 <br/>
 <br/>
-
-- Please follow the same steps for **Supervisor** user.
 
 [To the top of this lab](#table-of-contents)
 
-## Step 7. Verification: Access to the Agent Desktop
+## Step 6. Verification: Access to the Agent Desktop
 
 **Note**: To log in to the agent desktop, use either a separate web browser or a new incognito web page. This will prevent any browser caching issues with admin and agent credentials.
 
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="\_blank"}** in a new browser or in incognito mode.
 
-- Enter the agent’s **email ID** `wxcclabs+agent_ ID<0XX>@gmail.com`.
+- Enter the agent’s **email ID** `wxcclabs+agent_ID<0XX>@gmail.com`.
 
 - Enter the **Password** for the appropriate Username.
 
