@@ -7,11 +7,29 @@ layout: post
 
 # Table of Contents
 
-- [Step 1. Gmail account configuration](#step-1-gmail-account-configuration)
-- [Step 2. Create Email Asset and Register to Webex CC](#step-2-create-email-asset-and-register-to-webexcc)
-- [Step 3. Email Entry Point and Queue creation](#step-3-email-entry-point-and-queue-creation)
-- [Step 4. Create/Upload Email flow & verify Gmail account forwarding](#step-4-createupload-email-flow)
-- [Step 5. Verification: Send an Email and accept the task](#verification-send-an-email-and-accept-the-task)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+      + [Lab Objective](#lab-objective)
+      + [Prerequisite](#prerequisite)
+      + [Quick Links](#quick-links)
+- [Lab Section](#lab-section)
+      + [Configuration Order](#configuration-order)
+   * [Step 1. Gmail account configuration](#step-1-gmail-account-configuration)
+      + [1. Gmail forwarding activation (for incoming emails)](#1-gmail-forwarding-activation-for-incoming-emails)
+      + [2. Create a project at Google API Console](#2-create-a-project-at-google-api-console)
+      + [3. Enable Gmail API (for outgoing emails)](#3-enable-gmail-api-for-outgoing-emails)
+      + [4. Configure OAuth Consent Screen and Scopes](#4-configure-oauth-consent-screen-and-scopes)
+      + [5. Credentials and authentication with OAuth 2.0](#5-credentials-and-authentication-with-oauth-20)
+   * [Step 2. Create Email Asset and Register to Webex CC](#step-2-create-email-asset-and-register-to-webex-cc)
+      + [1. Create Email Asset](#1-create-email-asset)
+   * [Step 3. Email Entry Point and Queue creation](#step-3-email-entry-point-and-queue-creation)
+      + [1. Create Entry Point in Management Portal](#1-create-entry-point-in-management-portal)
+      + [2. Create 2 Queues in Management Portal](#2-create-2-queues-in-management-portal)
+   * [Step 4. Create/Upload Email flow & verify Gmail account forwarding](#step-4-createupload-email-flow-verify-gmail-account-forwarding)
+      + [1. Add forwarding Address Gmail Account and confirm the forwarding with URL from your email debug logs](#1-add-forwarding-address-gmail-account-and-confirm-the-forwarding-with-url-from-your-email-debug-logs)
+   * [Step 5. Verification: Send an Email and accept the task](#step-5-verification-send-an-email-and-accept-the-task)
+   
+
 
 # Introduction
 
@@ -358,61 +376,27 @@ Wait approximately 2 minutes to make sure your flow shows LIVE before proceeding
 <br/>
 <br/>
 
-- Click on the **bug icon** in the right side vertical menu. This will open the transaction debug logs for your email flow. When the logs load, you should see one transaction which will be the forwarding verification email from Google.   Click that transaction ID and then click the **decrypt logs** button.  Copy the data text from the `Configure Email Event` entry in the lower right pane
+Go back to Webex Connect and click on the **Debug Console** Menu, select `Query Historical Logs` – `Channel = Email` – `Date Range = Today/Last Hour`.  Click the **Search** button.  
 
-<img align="middle" src="/digital/assets/new_images/LAB2_email/08.OpenDecryptLogs.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/DebugConsole3.png" width="1000" />
 <br/>
 <br/>
 
-- Launch Notepad++ text editor on your lab computer.  Click Control+F to open the Find box.  Make sure that “regular expression” option is checked in the lower left
+- You should only have 1 transaction in your logs at this point.  Click the **Message ID** Link 
 
-<img align="middle" src="/digital/assets/new_images/LAB2_email/09.Notepad.png" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/OneTransaction.png" width="1000" />
 <br/>
 <br/>
 
-Paste in the data from the debug logs you copied above. Press ctrl+F to bring up the Find box.  Click the Replace tab in the Find box. We are going to replace some character strings to make the data readable.
-   
-In the Replace box
-Find:  `\\\\r\\\\n`
-Replace with:  `\r\n` 
-Hit **REPLACE ALL**
+- Click the **decrypt logs** button, then click the **Trace Details** link for that transaction. Click the **copy** button next to the Date entry in the lower right pane.  
 
-Next, In the Replace box
-Find: `\\\\/`
-Replace with: `/`
-Hit **REPLACE ALL**
-
-<img align="middle" src="/digital/assets/new_images/LAB2_email/10.NotepadFindAndReplace.gif" width="1000" />
+<img align="middle" src="/digital/assets/new_images/LAB2_email/email_copy debug.gif" width="1000" />
 <br/>
 <br/>
 
-- Replacing these character strings should format the data so it is readable. Look for the link to confirm your forwarding request.  Paste the link into a browser
+- Paste the copied data from the debug logs into the empty field below and press the Get URL button.  This will pull out the forwarding verification URL that google sent you.  
 
-<img align="middle" src="/digital/assets/new_images/LAB2_email/11.BetterFormatTextFile.png" width="1000" />
-<br/>
-<br/>
-
-- Click confirm button to confirm the forwarding. You will get a confirmation success message. 
-
-
-<img align="middle" src="/digital/assets/new_images/LAB2_email/12.Confirmation.png" width="1000" />
-<br/>
-<br/>
-
-- Back in the settings of your Gmail account, forwarding should be reflected in the Forwarding and POP/IMAP tab.
-
-<img align="middle" src="/digital/assets/new_images/LAB2_email/13.GmailScreenShot.png" width="1000" />
-<br/>
-<br/>
-
-- Last forwarding step:  open your email flow and click the **Edit** button top right corner, then click the settings **gear** icon and click the **Custom Variables** tab inside the Flow Settings box.  Replace the **bizemailid** variable with your Gmail address.  Save the settings, then click **Make Live** to publish your flow
-
-<img align="middle" src="/digital/assets/new_images/LAB2_email/14.bizemailid.png" width="1000" />
-<br/>
-<br/>
-
-
-<textarea id="jsonETL" style="width: 1352px; height: 96px;">Enter copied text here</textarea>
+<textarea id="jsonETL" style="width: 1352px; height: 96px;">Delete this text and enter copied text here</textarea>
 <button onclick="update()">Get URL</button>
 <script>
     function update(){
@@ -421,9 +405,29 @@ Hit **REPLACE ALL**
     }
 </script>
 
+- Paste the URL into a new browser tab and hit **Enter**.  Click the **Confirm** button to OK the forwarding.
 
+<img align="middle" src="/digital/assets/new_images/LAB2_email/email_paste debug.gif" width="1000" />
+<br/>
+<br/>
 
+- You will get a confirmation message
 
+<img align="middle" src="/digital/assets/new_images/LAB2_email/emailConfirmation.png" width="1000" />
+<br/>
+<br/>
+
+- Back in the settings of your Gmail account, forwarding should be reflected in the Forwarding and POP/IMAP tab.
+
+<img align="middle" src="/digital/assets/new_images/LAB2_email/CheckPopSetting.png" width="1000" />
+<br/>
+<br/>
+
+- Last forwarding step: open your email flow and click the **Edit** button top right corner, then click the settings **gear icon** and click the `Custom Variables`` tab inside the Flow Settings box. Replace the **bizemailid** variable with your Gmail address. Save the settings, then click **Make Live** to publish your flow.
+
+<img align="middle" src="/digital/assets/new_images/LAB2_email/bizemailid.png" width="1000" />
+<br/>
+<br/>
 
 [To the top of this lab](#table-of-contents)
 
