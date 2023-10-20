@@ -91,6 +91,9 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 <br/>
 <br/>
 
+- **NOTE** - If clicking on `Register to Webex Engage` does not do anything, please contact your proctor to do this step for you
+
+
 ## Step 3. Whatsapp Entry Point and Queue creation
 
 - Login to Webex Contact Centre administration portal
@@ -258,8 +261,6 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 <img align="middle" src="/digital/assets/images/Lab6_22.png" width="1000" />
 <br/>
 <br/>
-
-## [Back to top](#table-of-contents)
 
 ### Congratulations, you have completed this section!
 

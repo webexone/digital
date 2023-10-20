@@ -95,62 +95,6 @@ Webex Connect is required to provide a valid access token for using various Webe
   <br/>
   <br/>
 
-## Step 2. Download and upload CA flows in Connect - *This step has been preconfigured for you*
-
-Every tenant must include CA flows. CA flows can be imported from the template folder in this [GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows){:target="\_blank"}. CA flows can be added only once and will be automatically be used by all existing channel specific flows in the tenant when needed. It is recommended to add these flows in a dedicated Service named “Agnostic Flows - DO NOT MODIFY”
-
-**UPDATE:** The new simplified workflows provided in the github repository accommodate the underlying tasks that used to require separate flows.  These CA or agnostic flows are now only needed if you are creating custom flows and require this functionality. 
-
-> The agnostic flows consist of:\
-> • Task Routed - Adding an agent participant to a conversation;\
-> • Task Modified - Adding an agent to or removing an agent from an ongoing conversation (e.g., for chat transfer or conference);\
-> • Task Close - Closing the conversation;
-
-1. Download all flows from the [GitHub page](https://github.com/CiscoDevNet/webexcc-digital-channels/tree/main/Webex%20Connect%20Flows/v3.0/Template/Event%20Handling%20Workflows){:target="\_blank"}.
-
-2. Navigate to **webex connect -> v3.0 -> template -> event handling workflows**
-
-<img align="middle" src="/digital/assets/new_images\LAB1_preconfig\LAB1_5_dl_CA_flows_gif" width="1000" />
-<br/>
-<br/>
-
-3. Unzip All Files.
-
-4. Login to the **Webex Connect** portal with the admin account.
-
-5. Navigate to **Services** and click on **CREATE NEW SERVICE**.
-
-<img align="middle" src="/digital/assets/images/Lab1_Services.png" width="1000" />
-<br/>
-<br/>
-
-6. Set your name **Agnostic Flows DO NOT MODIFY** in the Service Name and press on **CREATE** button. This will create a new service.
-
-   > **Note** You can choose a different Service name. It is just an exmple.
-
-7. In the service click on **FLOWS** -> **CREATE FLOW**.
-
-<img align="middle" src="/digital/assets/images/Flows.png" width="1000" />
-<br/>
-<br/>
-
-8. In the **FLOW NAME** section set **Task Close Flow**.
-
-9. In the **METHOD** select **Upload a flow**. In **ATTACHMENT** click on **CHOOSE FILE** and select the **Task Close.workflow** file.
-
-10. Now you can click on **CREATE** button.
-
-<img align="middle" src="/digital/assets/images/Lab1_Create.png" width="1000" />
-<br/>
-<br/>
-
-11. In the new menu click **SAVE** and then **MAKE LIVE**. On pop up window click on **MAKE LIVE** again.
-
-<img align="middle" src="/digital/assets/new_images\LAB1_preconfig\LAB1_71_save_task_close_flow_gif" width="1000" />
-<br/>
-<br/>
-
-12. **!!!** Go back and repeate steps 7 - 11 for **Task Routed flow** and **Task Modified Flow**. Select the corresponding names.
 
 ## Step 2. Setup RONA timers - *This step has been preconfigured for you*
 
@@ -290,7 +234,7 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
 ## Step 6. Verification: Access to the Agent Desktop
 
-**Note**: To log in to the agent desktop, use either a separate web browser or a new incognito web page. This will prevent any browser caching issues with admin and agent credentials.
+**Note**: To log in to the agent desktop, **use either a separate web browser or a new incognito web page**. This will prevent any browser caching issues with admin and agent credentials.
 
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="\_blank"}** in a new browser or in incognito mode.
 

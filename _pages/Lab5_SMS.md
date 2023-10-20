@@ -77,6 +77,9 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 <br/>
 <br/>
 
+- **NOTE** - If clicking on `Register to Webex Engage` does not do anything, please contact your proctor to do this step for you
+
+
 ## Step 3. SMS Entry Point and Queue creation
 
 ### 1. Create Entry Point in Management Portal
@@ -234,8 +237,6 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 <img align="middle" src="/digital/assets/images/Lab5_23.jpg" width="1000" />
 <br/>
 <br/>
-
-## [Back to top](#table-of-contents)
 
 ### Congratulations, you have completed this section!
 

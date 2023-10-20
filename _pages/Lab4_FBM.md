@@ -115,7 +115,9 @@ In this lab you will be configuring Service, Chat Assets, Entry Point, Queue, Ch
 <br/>
 <br/>
 
-- Confirm that registration with Webex CC completed successfully
+- Confirm that registration with Webex Engage completed successfully
+
+- **NOTE** - If clicking on `Register to Webex Engage` does not do anything, please contact your proctor to do this step for you
 
 <img align="middle" src="/digital/assets/images/Lab4_12.jpg" width="600" />
 <br/>
@@ -310,8 +312,6 @@ _appid_: Application ID (appID) from the FBM Asset from Step 2
 <img align="middle" src="/digital/assets/images/Lab4_29.jpg" width="400" />
 <br/>
 <br/>
-
-## [Back to top](#table-of-contents)
 
 ### Congratulations, you have completed this section!
 

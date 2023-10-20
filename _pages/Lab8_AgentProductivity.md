@@ -171,7 +171,7 @@ In this Lab, we will go through the tasks that are required to configure a basic
 
 - In the service click on **FLOWS** -> **CREATE FLOW**
 
-- Enter the **FLOW NAME** as **Inbound Webhook**, select the **TYPE** as **Work Flow** and under **METHOD** select **New flow**. Click **Create**
+- Enter the **FLOW NAME** as **Inbound Webhook 0XX**, select the **TYPE** as **Work Flow** and under **METHOD** select **New flow**. Click **Create**
 
 <img align="middle" src="/digital/assets/new_images\Lab8_agentprod\Lab8.4_webhook_flow.png" width="1000" />
 <br/>
@@ -368,8 +368,6 @@ Content-Type: application/json
 <img align="middle" src="/digital/assets/images/Lab8_45.png" width="1000" />
 <br/>
 <br/>
-
-## [Back to top](#table-of-contents)
 
 ### Congratulations, you have completed this section!
 
