@@ -458,25 +458,4 @@ In order to fetch the confirmation email, go back to Webex Connect and click on 
 
 ### Congratulations, you have completed this section!
 
-<script>
-function mainPage() {window.location.href = "/digital/_pages/Home.md";}
-function nextLab() 
- {
- window.location.href = "/digital/_pages/Lab3_Chat";
- }
-</script>
 
-<div id="button-row">
-<button onclick="mainPage()" style="
-  border-radius: 5px;
-  background-color: rgb(116,191,75);
-  padding: 10px;">Main Page</button>
-
-<button onclick="nextLab()" style="
-  position: absolute;
-  right: 200px;
-  border-radius: 5px;
-  background-color: rgb(116,191,75);
-  padding: 10px;">Next Lab</button>
-
-</div>

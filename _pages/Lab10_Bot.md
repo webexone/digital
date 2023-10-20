@@ -18,8 +18,8 @@ layout: post
    * [Step 7. Configure the flow to use the QA bot & make it LIVE! <a name="make-live"></a>](#step-7-configure-the-flow-to-use-the-qa-bot-make-it-live)
    * [Step 8. Test the QA bot with an agent <a name="test-QA-bot"></a>](#step-8-test-the-qa-bot-with-an-agent)
    * [Step 9. Customer:  request email of chat transcript <a name="request-transcript"></a>](#step-9-customer-request-email-of-chat-transcript)
-   * [Back to the top](#back-to-the-top)
-      + [Congratulations, you have completed this section!](#congratulations-you-have-completed-this-section)
+   
+      
 
 
 ### Introduction
@@ -317,27 +317,6 @@ In this step you will configure the flow’s custom variables and change fields 
 
 ## [Back to the top](#table-of-contents)
 
-### Congratulations, you have completed this section!
+**Congratulations, you have completed this section!**
 
-<script>
-function mainPage() {window.location.href = "Home";}
-function nextLab() 
- {
- window.location.href = "Home";
- }
-</script>
 
-<div id="button-row">
-<button onclick="mainPage()" style="
-  border-radius: 5px;
-  background-color: rgb(116,191,75);
-  padding: 10px;">Home Page</button>
-
-<button onclick="nextLab()" style="
-  position: absolute;
-  right: 200px;
-  border-radius: 5px;
-  background-color: rgb(116,191,75);
-  padding: 10px;">You have nowhere else to be!</button>
-
-</div>

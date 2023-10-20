@@ -314,25 +314,4 @@ Please follow the same steps as above to add an extra Team as `Team2_0XX`
 
 ### Congratulations, you have compleated Lab1 tasks!
 
-<script>
-function mainPage() {window.location.href = "Home";}
-function nextLab() 
- {
- window.location.href = "Lab2_Email";
- }
-</script>
 
-<div id="button-row">
-<button onclick="mainPage()" style="
-  border-radius: 5px;
-  background-color: rgb(116,191,75);
-  padding: 10px;">Main Page</button>
-
-<button onclick="nextLab()" style="
-  position: absolute;
-  right: 200px;
-  border-radius: 5px;
-  background-color: rgb(116,191,75);
-  padding: 10px;">Next Lab</button>
-
-</div>
