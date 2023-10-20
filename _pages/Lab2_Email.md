@@ -454,8 +454,6 @@ In order to fetch the confirmation email, go back to Webex Connect and click on 
 
 - Add wrap up and close the task.
 
-## [Back to the top](#table-of-contents)
-
 ### Congratulations, you have completed this section!
 
 

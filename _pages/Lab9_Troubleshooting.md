@@ -145,7 +145,5 @@ In this lab, we will go through the concepts and basics of flow debugging option
 <br/>
 <br/>
 
-## [Back to top](#table-of-contents)
-
 ### Congratulations, you have completed this section!
 

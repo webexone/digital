@@ -97,7 +97,7 @@ In this task, we will use the predefined node **PIQ and EWT**. This node provide
 
 In the default workflow, auto-reply is already configured for all new tasks. In this step, we will improve the answer by changing the message and adding the PIQ variable.
 
-- Double-click the the **Email** node and in the **MESSAGE** field.
+- Double-click the **Email** node and in the **MESSAGE** field.
 
 <img align="middle" src="/digital/assets/new_images\Lab7_advemail\Lab_7.31_email_auto_reply_node.png" width="1000" />  
 <br/>
@@ -205,7 +205,7 @@ Double-click the second **Queue Task** node and set the following options:
 
 - Publish your workflow by clicking **SAVE** and **MAKE LIVE**.
 
-- Go to your personal email account or ask the proctor to send 2 emails **with and without** the "Cisco Live" subject.
+- Go to your personal email account or ask the proctor to send 2 emails **with and without** the "Webex One" subject.
 
 - Go to the agent desktop [https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}. Sign in as the agent in "Team1_0XX" and make the agent **Available**. You should get only 1 email without the "Webex One" subject.
 
@@ -223,12 +223,12 @@ Double-click the second **Queue Task** node and set the following options:
 <br/>
 <br/>
 
-- Make the agent **Available**. As a result, the second email should come into the Email queue for the `Team2` with the **"Cisco Live"** subject.
+- Make the agent **Available**. As a result, the second email should come into the Email queue for the `Team2` with the **"Webex One"** subject.
 
 ## Step 5. Integration with Smartsheet using smartsheet APIs
 
 In this task, you will learn how to work with the **HTTP Request** node. As an example, we are going to make the integration with the external product through smartsheet APIs. Smartsheet APIs are used as an example. They allow you to programmatically access and manage Smartsheet data especially read and update sheets.
-In our logic, if the email's subject does not contain "Cisco Live" we will be adding a new row to the smartsheet with the email details (Sender Name, From Address and Subject).
+In our logic, if the email's subject does not contain "Webex One" we will be adding a new row to the smartsheet with the email details (Sender Name, From Address and Subject).
 
 ### 1. Preconfigured settings (no actions needed)
 
@@ -313,49 +313,7 @@ The steps below were **preconfigured** for you. They has to be done only once.
 
 - After 1 minute check the smartsheet table. The row with the email details has to appear: [https://app.smartsheet.com/sheets/mGxggWGV8qcxmxvgcvRmfjxqfhcCFwGg4RHmQP71?view=grid](https://app.smartsheet.com/sheets/mGxggWGV8qcxmxvgcvRmfjxqfhcCFwGg4RHmQP71?view=grid){:target="\_blank"}
 
-## BONUS TASK - Integration with Webex Teams (Alarm notification)
 
-The idea is to show that you can integrate the Flow with Webex Teams and this can be used as the notifications for supervisors based on the specific criteria.
-This section has the bonus category where we can check how you understand this topic. Here we give you the task without a step-by-step explanation the result will be the message from the Webex bot in our Cisco Live space.
-
-**Use case:** As a supervisor, I want to get the notifications in the Webex Teams if there are more then 3 email in queue (PIQ > 3).
-
-1. The Webex API token is generated for you.
-
-<img align="middle" src="/digital/assets/images/Lab7_webex1.png" width="1000" />   
-<br/>
-<br/>
-
-2. Here is the example of the Postman request.
-
-<img align="middle" src="/digital/assets/images/Lab7_webex2.png" width="1000" /> 
-<br/>
-<br/>
-
-3. **HTTP Request** node settings:
-
-| **Setting Name** | **Value**                                                                                                         |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------- |
-| METHOD           | POST                                                                                                              |
-| ENDPOINT URL     | https://webexapis.com/v1/messages                                                                                 |
-| Authorization    | Bearer MzAzYzk4ZWMtZWY4ZS00OTg1LTk3NmYtN2U3MWNlYTA0MzA1OTg2N2I1MWEtYzg1_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f |
-| Content-Type     | application/json                                                                                                  |
-| TIMEOUT          | 3000                                                                                                              |
-
-**BODY:**
-
-```
-{
-    "roomId":"Y2lzY29zcGFyazovL3VzL1JPT00vMzc2ZjI4NDAtZTg0Mi0xMWVjLTk2MmQtODk2ZjNlNGRjOWMy",
-    "text":"There are more than $(nX.positionInQueue) tasks in queue!"
-}
-```
-
-<img align="middle" src="/digital/assets/images/Lab7_webex3.png" width="1000" /> 
-<br/>
-<br/>
-
-## [Back to top](#table-of-contents)
 
 ### Congratulations, you have completed this section!
 

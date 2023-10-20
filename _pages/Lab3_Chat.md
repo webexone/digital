@@ -86,6 +86,8 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 <br/>
 <br/>
 
+- **NOTE:** If clicking on Register to Engage doesn’t do anything, please contact your lab proctor to perform this step for you
+
 - Verify that the `Register to Webex Engage` option is now disabled and there is a message indicating the time when the asset was registered along with the service to which it is assigned.
 
 <img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_3_confirm_register_app_to_service_png" width="1000" />
