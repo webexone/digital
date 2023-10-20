@@ -58,7 +58,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 ## Step 1. Live Chat Asset creation & register to Webex Engage
 
-- Login to your respective Webex Connect UI using the provided URL [https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}\
+- Login to your respective Webex Connect UI using the provided URL [https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io){:target="\_blank"}
 
 - Navigate to `Assets` > `Apps` > `Configure New App` > `Mobile / Web`
 
@@ -68,7 +68,7 @@ In this lab you will be configuring the Service, Chat Assets, Entry Point, Queue
 
 - Name your asset `LiveChatAsset_0XX` where 0XX is your 3-digit Lab ID
 
-- Toggle/Enable `Live Chat / In-AppMessaging` to "ON" and choose `PRIMARY TRANSPORT PROTOCOL` as MQTT" & `SECONDARY TRANSPORT PROTOCOL` as Web Socket" and enable `Use Secured Port` and `SAVE`.
+- Toggle/Enable `Live Chat / In-AppMessaging` to "ON" and choose `PRIMARY TRANSPORT PROTOCOL` as MQTT" & `SECONDARY TRANSPORT PROTOCOL` as Web Socket" and enable `Use Secured Port` and **SAVE**.
 
 <img align="middle" src="/digital/assets/images/Lab3_2.jpg" width="700" />
 <br/>
@@ -141,7 +141,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 <br/>
 <br/>
 
-- Finally click `SAVE`
+- Finally click **SAVE**
 
 <img align="middle" src="/digital/assets/images/Lab3_12.jpg" width="1000" />
 <br/>
@@ -150,6 +150,8 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 [To the top of this lab](#table-of-contents)
 
 ## Step 3. Chat Entry Point and Queue creation
+
+Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
 
 ### 1. Create Entry Point in Management Portal
 
@@ -257,7 +259,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - In the agent settings, Select `Skill Profile_0XX` as `Sales_0XX` and click **Save**
 
-<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_4_assign_agent_skill_profile_png" width="600" />
+<img align="middle" src="../assets/new_images/Lab3_chat/lab3_4_assign_agent_skill_profile_png" width="1500" />
 <br/>
 <br/>
 
@@ -293,7 +295,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 
 - Enter the respective fields as per Screenshots below. Note we are going to insert the chat bubble into an online HTML editor called `glitch.me`. The `Domain` field should contain the domain where you will insert the chat bubble.
 
-<img align="middle" src="/digital/assets/new_images/Lab3_chat/02.glitchMe" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/02.glitchMe.png" width="1000" />
 <br/>
 <br/>
 
@@ -312,7 +314,7 @@ Here is a screenshot of the Dropdown configuration with 2 options, one for **Sal
 ### 2. Verify that live chat widget loads
 
 - There's still a few bits to configure but we can now verify that the live chat widget loads.
-- Go to Webex Connect Engage portal, select Installation tab and Copy the chat script code.
+- Go to Webex Engage portal (Where you launched the `Digital Channels` -> `Assets` -> `Channel Assets` from the left menu of the Management Portal), select Installation tab and Copy the chat script code.
 
 <img align="middle" src="/digital/assets/images/Lab3_18.jpg" width="1000" />
 <br/>
@@ -345,7 +347,7 @@ The name of your new glitch project will appear in the top left menu (in this ex
 
 -	Delete everything between the `<body>` and `</body>` takes in the index file. This is where you will paste your chat bubble code from Engage.  
 
--	Click the **Preview** button in the lower browser bar and select `Preview in New Window`.  Verify that the Live Chat bubble pops up in the lower right corner and that your widget loads correctly. 
+-	Click the **Preview** button in the bottom browser bar and select `Preview in New Window`.  Verify that the Live Chat bubble pops up in the lower right corner and that your widget loads correctly. 
 
 <img align="middle" src="/digital/assets/new_images/Lab3_chat/07.GlitchPreview.gif" width="1000" />
 <br/>
@@ -357,7 +359,7 @@ The name of your new glitch project will appear in the top left menu (in this ex
 
 - This section applies to all channels, not just Live chat. You can preset quick responses that agents can use when they respond to customer queries. You can set up the responses in Templates, and group them in a Template Group to organize the content and make the templates easier to find. We'll configure some so you can test them in all the successive lab exercises
 
-- Go to `Assets` > `Templates` and click the + icon besides Template Groups table header.
+- In Engage, go to `Assets` > `Templates` and click the + icon besides Template Groups table header.
 
 <img align="middle" src="/digital/assets/new_images/Lab3_chat/08.TemplateGroup.png" width="1000" />
 <br/>
@@ -375,7 +377,7 @@ The name of your new glitch project will appear in the top left menu (in this ex
 - Enter the template text in the `Template Text` field. You can use variables by typing `@@` and also custom fields between chevron brackets `<>`. Variables will be autopopulated based on the active task and custom fields will be editable even if the template is locked. You can use the example on the screenshot or some other text.
 
 
-<img align="middle" src="/digital/assets/images/Lab3_50.jpg" width="1000" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/CreateTemplate.jpg" width="1000" />
 <br/>
 <br/>
 
@@ -399,7 +401,7 @@ The name of your new glitch project will appear in the top left menu (in this ex
 
 - Unzip the downloaded file.
 
-- Go to Webex Connect, click on **Services** and select `Service_0XX` in which your asset `Asset_0XX`` is created in step 2. It should be **My First Service**
+- Go to Webex Connect, click on **Services** and select `Service_0XX` in which your asset `Asset_0XX` is created in step 2. It should be **My First Service**
 
 - In the service click on **FLOWS** -> **CREATE FLOW** .
 
@@ -443,11 +445,6 @@ _appID_: this will be the APP ID of your chat asset created earlier
 <br/>
 <br/>
 
-
-<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_8_chat_flow_cust_var_1_png" width="1000" />
-<br/>
-<br/>
-
 - In your production setup domain should be set to your website's domain
 
 ### 3. Select Live Chat form
@@ -466,13 +463,13 @@ _appID_: this will be the APP ID of your chat asset created earlier
 
 ### 4. Edit Queue Task node
 
-- In the created workflow find the **Queue Task**, click twice, select the **QUEUE NAME** as **Chat_Q_SBR_0XX** and add Skill requirement for Sales_0XX to be True and click on **SAVE**.
+- In the created workflow find the **Queue Task**, click twice, select the **QUEUE NAME** as **Chat_Q_SBR_0XX** and add Skill requirement for `Sales_0XX` to be True and click on **SAVE**.
 
 <img align="middle" src="/digital/assets/images/Lab3_36.jpg" width="1000" />
 <br/>
 <br/>
 
-- Finally click on Make Live on top right corner -> Under Application select LiveChatAsset_0XX that corresponds to your Lab ID and click `Make Live`.
+- Finally click on Make Live on top right corner -> Under Application select `LiveChatAsset_0XX` that corresponds to your Lab ID and click `Make Live`.
 
 <img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_92_chat_flow_make_live_png" width="1000" />
 <br/>
