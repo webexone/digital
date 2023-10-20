@@ -259,7 +259,7 @@ Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cis
 
 - In the agent settings, Select `Skill Profile_0XX` as `Sales_0XX` and click **Save**
 
-<img align="middle" src="../assets/new_images/Lab3_chat/lab3_4_assign_agent_skill_profile_png" width="1500" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_4_assign_agent_skill_profile_png" width="1500" />
 <br/>
 <br/>
 
@@ -537,7 +537,7 @@ _appID_: this will be the APP ID of your chat asset created earlier
 
 - You can search and view conversation transcripts from the New Digital Channels Engage interface. Go to the already openned tab or from Management Portal, access the menu and cross launch **New Digital Channels Admin Portal** by choosing `New Digital Channels`. Then click on Switch to Customer Care button at the top right.
 
-<img align="middle" src="../new_images/Lab3_chat/lab3_93_customer_care_png" width="400" />
+<img align="middle" src="/digital/assets/new_images/Lab3_chat/lab3_93_customer_care_png" width="400" />
 <br/>
 <br/>
 
