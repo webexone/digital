@@ -305,7 +305,7 @@ Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cis
 ## Step 4. Create/Upload Email flow & verify Gmail account forwarding
 
 
-- Go to **Assets** -> **Apps** -> Locate your Email asset `EmailAsset0XX` and copy the **Forwarding Address** to use in a subsequent step
+- Go to **Assets** -> **Apps** -> Locate your Email asset `EmailAsset0XX` and copy and save the **Forwarding Address** somewhere to use in a subsequent step
 
 <img align="middle" src="/digital/assets/new_images\LAB2_email/95_copy_bizemailid.jpg" width="1000" />
 <br/>
