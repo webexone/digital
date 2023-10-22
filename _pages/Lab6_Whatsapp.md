@@ -37,9 +37,9 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 
 ## Step 1. Verify Whatsapp Number Assignment
 
-- Login to your respective Webex Connect UI using the provided URL https://labtenant.us.webexconnect.io
+- Login to your respective Webex Connect UI using the provided URL [https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io)
 
-- Navigate to Assets > Numbers and verify that the tenant you are using has a WhatsApp number assigned
+- Navigate to Assets > Numbers and verify that you are able to view the WhatsApp number assigned to you
 
 <img align="middle" src="/digital/assets/images/Lab6_1.png" width="1000" />
 <br/>
@@ -91,7 +91,7 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 <br/>
 <br/>
 
-- **NOTE** - If clicking on `Register to Webex Engage` does not do anything, please contact your proctor to do this step for you
+- **NOTE** - If clicking on `Register to Webex Engage` does not do anything, please contact your lab proctor to do this step for you
 
 
 ## Step 3. Whatsapp Entry Point and Queue creation
@@ -209,8 +209,6 @@ In this lab you will be configuring **WhatsApp** number settings, Assets, Entry 
 <img align="middle" src="/digital/assets/new_images\Lab6_whatsapp\Lab_6.6_flow_live.png" width="1000" />
 <br/>
 <br/>
-
-[To the top of this lab](#table-of-contents)
 
 ## Verification - send Whatsapp message and accept the request
 

@@ -312,11 +312,6 @@ In this step you will configure the flow’s custom variables and change fields 
 <br/>
 <br/>
 
-**You have successfully built and tested a QA Chat bot!  Congratulations!** 
-
-
-## [Back to the top](#table-of-contents)
-
 **Congratulations, you have completed this section!**
 
 

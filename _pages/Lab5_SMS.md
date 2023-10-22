@@ -39,9 +39,9 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 
 ## Step 1. Verify SMS Number Assignment
 
-- Login to your respective Webex Connect UI using the provided URL https://labtenant.us.webexconnect.io
+- Login to your respective Webex Connect UI using the provided URL [https://labtenant.us.webexconnect.io](https://labtenant.us.webexconnect.io)
 
-- Navigate to Assets > Numbers and verify that the tenant you are using has a SMS number assigned
+- Navigate to Assets > Numbers and verify that you are able to view the SMS number assigned to you
 
 <img align="middle" src="/digital/assets/new_images\Lab5_SMS\Lab_5_1_check_number_png" width="1000" />
 <br/>
@@ -77,14 +77,14 @@ In this lab you will be configuring **SMS** number settings, SMS Assets, Entry P
 <br/>
 <br/>
 
-- **NOTE** - If clicking on `Register to Webex Engage` does not do anything, please contact your proctor to do this step for you
+- **NOTE** - If clicking on `Register to Webex Engage` does not do anything, please contact your lab proctor to do this step for you
 
 
 ## Step 3. SMS Entry Point and Queue creation
 
 ### 1. Create Entry Point in Management Portal
 
-- Login to Webex Contact Centre administration portal
+- Login to Webex Contact Centre administration portal - **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
 
 - Click on **_Provisioning_** and select **_Entry Points/Queues_** > **_Entry Point_**.
 
