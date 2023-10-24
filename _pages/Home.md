@@ -13,7 +13,7 @@ Welcome to the Lab Guide Library. Here you will find the step-by-step guides on 
 
 | Lab # | Topic                    | URL                                                              |
 | ----- | ------------------------ | ---------------------------------------------------------------- |
-| ----- | Before you Begin         | [Lab Information](Lab_Info.md){:target="\_blank"}                |
+| ----- | Before you Begin         | [Lab Information](Lab0_Info)                                     |
 | Lab 1 | Preconfiguration         | [Preconfiguration](Lab1_Preconfiguration.md){:target="\_blank"}  |
 | Lab 2 | Email Configuration      | [Email creation end to end](Lab2_Email.md){:target="\_blank"}    |
 | Lab 3 | Chat Configuration       | [Live Chat creation end to end](Lab3_Chat.md){:target="\_blank"} |
@@ -23,9 +23,9 @@ Welcome to the Lab Guide Library. Here you will find the step-by-step guides on 
 
 ## Bonus section - Advanced Lab Exercises
 
-| Lab # | Topic                                | URL                                                                                        |
-| ----- | ------------------------------------ | ------------------------------------------------------------------------------------------ |
-| Lab 7 | Advanced Email Configuration         | [Auto Reply, PIQ, Subject Filter, API requests](Lab7_Email_Advanced.md){:target="\_blank"} |
-| Lab 8 | Event and Rules - agent productivity | [Event and Rules - agent productivity](Lab8_AgentProductivity.md){:target="\_blank"}       |
-| Lab 9 | Flow Debug Capabilities              | [Flow Debug Capabilities](Lab9_Troubleshooting.md){:target="\_blank"}                      |
-| Lab 10 | Q&A Bot builder              | [Q&A Bot builder](Lab10_Bot.md){:target="\_blank"}                      |
+| Lab #  | Topic                                | URL                                                                                        |
+| ------ | ------------------------------------ | ------------------------------------------------------------------------------------------ |
+| Lab 7  | Advanced Email Configuration         | [Auto Reply, PIQ, Subject Filter, API requests](Lab7_Email_Advanced.md){:target="\_blank"} |
+| Lab 8  | Event and Rules - agent productivity | [Event and Rules - agent productivity](Lab8_AgentProductivity.md){:target="\_blank"}       |
+| Lab 9  | Flow Debug Capabilities              | [Flow Debug Capabilities](Lab9_Troubleshooting.md){:target="\_blank"}                      |
+| Lab 10 | Q&A Bot builder                      | [Q&A Bot builder](Lab10_Bot.md){:target="\_blank"}                                         |
