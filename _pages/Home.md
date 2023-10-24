@@ -23,9 +23,9 @@ Welcome to the Lab Guide Library. Here you will find the step-by-step guides on 
 
 ## Bonus section - Advanced Lab Exercises
 
-| Lab #  | Topic                                | URL                                                                                    |
-| ------ | ------------------------------------ | -------------------------------------------------------------------------------------- |
-| Lab 7  | Advanced Email Configuration         | [Auto Reply, PIQ, Subject Filter, API requests](/digital/pages/Lab7_Email_Advanced.md) |
-| Lab 8  | Event and Rules - agent productivity | [Event and Rules - agent productivity](/digital/pages/Lab8_AgentProductivity.md)       |
-| Lab 9  | Flow Debug Capabilities              | [Flow Debug Capabilities](/digital/pages/Lab9_Troubleshooting.md)                      |
-| Lab 10 | Q&A Bot builder                      | [Q&A Bot builder](/digital/pages/Lab10_Bot.md)                                         |
+| Lab #  | Topic                                | URL                                                                                 |
+| ------ | ------------------------------------ | ----------------------------------------------------------------------------------- |
+| Lab 7  | Advanced Email Configuration         | [Auto Reply, PIQ, Subject Filter, API requests](/digital/pages/Lab7_Email_Advanced) |
+| Lab 8  | Event and Rules - agent productivity | [Event and Rules - agent productivity](/digital/pages/Lab8_AgentProductivity)       |
+| Lab 9  | Flow Debug Capabilities              | [Flow Debug Capabilities](/digital/pages/Lab9_Troubleshooting)                      |
+| Lab 10 | Q&A Bot builder                      | [Q&A Bot builder](/digital/pages/Lab10_Bot)                                         |
