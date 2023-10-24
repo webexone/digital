@@ -11,21 +11,21 @@ Welcome to the Lab Guide Library. Here you will find the step-by-step guides on 
 
 ## Mandatory section - All Channels Lab Exercises
 
-| Lab # | Topic                    | URL                                                              |
-| ----- | ------------------------ | ---------------------------------------------------------------- |
-| ----- | Before you Begin         | [Lab Information](Lab0_Info)                                     |
-| Lab 1 | Preconfiguration         | [Preconfiguration](Lab1_Preconfiguration.md){:target="\_blank"}  |
-| Lab 2 | Email Configuration      | [Email creation end to end](Lab2_Email.md){:target="\_blank"}    |
-| Lab 3 | Chat Configuration       | [Live Chat creation end to end](Lab3_Chat.md){:target="\_blank"} |
-| Lab 4 | Facebook Messenger Setup | [FBM creation end to end](Lab4_FBM.md){:target="\_blank"}        |
-| Lab 5 | SMS Setup                | [SMS creation end to end](Lab5_SMS.md){:target="\_blank"}        |
-| Lab 6 | WhatsApp Messenger Setup | [WhatsApp configuration](Lab6_Whatsapp.md){:target="\_blank"}    |
+| Lab # | Topic                    | URL                                                       |
+| ----- | ------------------------ | --------------------------------------------------------- |
+| ----- | Before you Begin         | [Lab Information](/digital/pages/Lab0_Info)               |
+| Lab 1 | Preconfiguration         | [Preconfiguration](/digital/pages/Lab1_Preconfiguration)  |
+| Lab 2 | Email Configuration      | [Email creation end to end](/digital/pages/Lab2_Email)    |
+| Lab 3 | Chat Configuration       | [Live Chat creation end to end](/digital/pages/Lab3_Chat) |
+| Lab 4 | Facebook Messenger Setup | [FBM creation end to end](/digital/pages/Lab4_FBM)        |
+| Lab 5 | SMS Setup                | [SMS creation end to end](/digital/pages/Lab5_SMS)        |
+| Lab 6 | WhatsApp Messenger Setup | [WhatsApp configuration](/digital/pages/Lab6_Whatsapp)    |
 
 ## Bonus section - Advanced Lab Exercises
 
-| Lab #  | Topic                                | URL                                                                                        |
-| ------ | ------------------------------------ | ------------------------------------------------------------------------------------------ |
-| Lab 7  | Advanced Email Configuration         | [Auto Reply, PIQ, Subject Filter, API requests](Lab7_Email_Advanced.md){:target="\_blank"} |
-| Lab 8  | Event and Rules - agent productivity | [Event and Rules - agent productivity](Lab8_AgentProductivity.md){:target="\_blank"}       |
-| Lab 9  | Flow Debug Capabilities              | [Flow Debug Capabilities](Lab9_Troubleshooting.md){:target="\_blank"}                      |
-| Lab 10 | Q&A Bot builder                      | [Q&A Bot builder](Lab10_Bot.md){:target="\_blank"}                                         |
+| Lab #  | Topic                                | URL                                                                                    |
+| ------ | ------------------------------------ | -------------------------------------------------------------------------------------- |
+| Lab 7  | Advanced Email Configuration         | [Auto Reply, PIQ, Subject Filter, API requests](/digital/pages/Lab7_Email_Advanced.md) |
+| Lab 8  | Event and Rules - agent productivity | [Event and Rules - agent productivity](/digital/pages/Lab8_AgentProductivity.md)       |
+| Lab 9  | Flow Debug Capabilities              | [Flow Debug Capabilities](/digital/pages/Lab9_Troubleshooting.md)                      |
+| Lab 10 | Q&A Bot builder                      | [Q&A Bot builder](/digital/pages/Lab10_Bot.md)                                         |
