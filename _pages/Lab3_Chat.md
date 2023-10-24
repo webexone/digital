@@ -439,7 +439,7 @@ The name of your new glitch project will appear in the top left menu (in this ex
 
 _domain_: Set it to `*.glitch.me` (if this field is not present, move on)
 
-_liveChatDomain_: Set it to `*.glitch.me*`
+_liveChatDomain_: Set it to `*.glitch.me`
 
 _appID_: this will be the APP ID of your chat asset created earlier
 
@@ -582,8 +582,6 @@ _appID_: this will be the APP ID of your chat asset created earlier
 <img align="middle" src="/digital/assets/images/Lab3_61.jpg" width="500" />
 <br/>
 <br/>
-
-## [Back to top](#table-of-contents)
 
 ### Congratulations, you have completed this section!
 
